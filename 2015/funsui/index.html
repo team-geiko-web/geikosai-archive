@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>噴水企画</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('#fullpage').fullpage({
+        css3: true,
+        controlArrows: false,
+        recordHistory: false
+      });
+      $("#move_down").click(function () {
+       $.fn.fullpage.moveSectionDown();
+      });
+      $(".move_right").click(function () {
+        $.fn.fullpage.moveSlideRight();
+      });
+
+      $(".move_left").click(function () {
+       $.fn.fullpage.moveSlideLeft();
+      });
+      $('.bxslider').bxSlider({
+        video: true,
+        useCSS: false
+      });
+    });
+
+    jQuery(document).ready(function($){
+      $("#wedding").fitVids();        
+    });
+
+    $(function() {
+      var h = $(window).height();
+     
+      $('#wrap').css('display','none');
+      $('#loader-bg ,#loader').height(h).css('display','block');
+    });
+     
+    $(window).load(function () { //全ての読み込みが完了したら実行
+      $('#loader-bg').delay(900).fadeOut(800);
+      $('#loader').delay(600).fadeOut(300);
+      $('#wrap').css('display', 'block');
+    });
+
+    $(function(){
+       // #で始まるアンカーをクリックした場合に処理
+       $('a[href^=#]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+          // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+       });
+    });
+  </script>
+
+  <style type="text/css">
+    @media ( min-width: 768px ) {
+      #banner {
+        min-height: 300px;
+        border-bottom: none;
+      }
+      .bs-docs-section {
+        margin-top: 8em;
+      }
+      .bs-component {
+        position: relative;
+      }
+      .bs-component .modal {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        z-index: 1;
+        display: block;
+      }
+      .bs-component .modal-dialog {
+        width: 90%;
+      }
+      .bs-component .popover {
+        position: relative;
+        display: inline-block;
+        width: 220px;
+        margin: 20px;
+      }
+      .nav-tabs {
+        margin-bottom: 15px;
+      }
+      .progress {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+    <div id="loader-bg">
+      <div id="loader">
+        <img src="img/498.gif" alt="Now Loading..." />
+        <p>Now Loading...</p>
+      </div>
+    </div>
+
+
+  <div id="fullpage">
+    <div class="section" id="title1">
+        <section class="container">
+          <div class="row title">
+            <div class="col-sm-6 tl">Funsui</div>
+            <div class="col-sm-6 tr">Project</div>
+          </div>
+          <div class="row title">
+            <div class="col-sm-12 ws">WEBSITE</div>
+          </div>
+          <div class="row">
+            <div id="move_down" class="col-xs-8 col-xs-push-2 ghost">↓Push Key Down↓</div>
+          </div>
+      </section>
+    </div>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div id="ft" class="row">
+          <div id="al"class="col-sm-8">
+            <div class="row">
+              <div>
+                <h1 class="h">噴水企画（通称3研）とは？</h1>
+              </div>
+            </div>
+            <div class="row">
+              <p>芸工祭には様々な発表や催しを行う企画があります。</p>
+              <p>その数ある企画の中に<br />大橋キャンパスの噴水の回りにステージを作り、<br />劇・映像・音楽・照明・舞台装置などを用いて<br />芸工祭を笑いと感動で彩る<br />前衛的なエンターテイメント集団があります。</p>
+              <p>そう、それが噴水企画、通称3研です。</p>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 img">
+                <div class="img-wrap">
+                  <img class="logo_geikou" src="img/logo_geikou.png" alt="芸工祭ロゴ"> 
+                </div>
+                <p>2015年芸工祭ロゴ</p>
+              </div>
+              <div class="col-sm-6 img">
+                <div class="img-wrap">
+                  <img src="img/logo_funsui.png" alt="3研ロゴ">
+                </div>
+                <p>3研ロゴ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 hidden-xs fimg">
+            <img src="img/funsui.png" alt="噴水">
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div id="head" class="section">
+      <div class="container">
+        <div id="ht" class="row">
+          <div id="hr" class="col-sm-8 col-sm-push-4">
+            <div class="row">
+              <h1 class="h">噴水企画頭のあいさつ</h1>
+            </div>
+            <div class="row">
+              <p>芸工祭には様々な企画がありますが、その中で噴水企画は全力で笑いを追い求める企画です。</p>
+              <p>今年の噴水企画は、「パワーオブスマイル」をモットーに、笑いに対して一心不乱に取り組む所存です！</p>
+              <p>応援よろしくお願いします。</p>
+              <!--　みんなでほんこうえんみて、はぴはぴするにぃ〜☆-->
+            </div>
+          </div>
+          <div class="col-sm-4 col-sm-pull-8 himg">
+            <img src="img/head.png" alt="頭"> 
+            <p>2015年噴水企画頭　神主</p>             
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <div id="mars" class="section">
+      <div class="slide">
+        <div class="container">
+          <div class="row ml">
+            <h1 class="h">第12回芸工祭噴水企画公演</h1>
+            <img src="img/logo_mars.png" id="logo_mars">
+          </div>
+          <div class="row">
+            <div class="col-lg-push-7 col-lg-5 col-sm-6 col-sm-push-5 col-xs-8 col-xs-push-2 ghost gt move_right">→→あらすじ→→</div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-push-0 col-xs-8 col-xs-push-2 ghost gu move_left">←←タイトル←←</div>
+          </div>
+          <div id="synopsis" class="row">
+            <div class="col-sm-10 mt">
+              <h1 class="h">あらすじ</h1> 
+              <p>　太陽系第4惑星「火星」</p>
+              <p class="hidden-xs">　水、藻、素敵なお魚をいっぱい。全部混ぜるとムッチャかわいい女の子ができる……はずだった。だけどユーフォニアム博士は間違って余計なものを入れちゃった！それはPPG！そして生まれた超天才人工知能、スーパーブレインで悪い奴らをやっつける！賢くてかわいい正義の味方、みんなのアイドル！</p>
+              <p>　そんな火星のオフィスで繰り広げられる火星人ドラマを切り取った物語。出世の道を断たれ、日々を坦々と消化する防衛局課長ヒジヤ。愛する彼女と仕事との間で板挟みになる青年カワムラ。公安に勤め、同期の監視を余儀なくされるエリート、イナバ。独自の視点であらゆる仕事をこなす若き女性社員メアリー。それぞれはそれぞれの思いを胸に今日も会社の門をくぐる。このけだるい日常はいつまでも続いてしまうのか……。</p>
+              <p>　ときにゆるく、ときに熱く、遠い星の住人たちの心にフォーカスした、噴水企画だからこそできたスペクタクル巨編。この秋、あなたの心をやさしくドーーーーン！</p>
+            </div>  
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-sm-push-4 col-xs-8 col-xs-push-2 ghost gd move_right">→→公演情報→→</div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-push-0  col-xs-8 col-xs-push-2 ghost gu move_left">←←あらすじ←←</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 mt">
+              <h1 class="h">公演情報</h1>
+              <div class="col-md-5">
+                <p>第12回芸工祭噴水企画公演<br />Life on Mars?</p>
+                <p>日時：11月21日　19時開演</p>
+                <p>場所：九州大学の大橋キャンパスの噴水の周り</p>
+                <p>料金：無料</p>
+              </div>
+              <div id="map" class="col-md-7">
+                <img src="img/map.png" alt="地図">
+              </div>
+              <p>当日はぜひ暖かい格好でお越しください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="movie" class="section">
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-push-1">
+              <p>噴水企画概論</p>  
+              <ul class="bxslider">
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/Z_UrxsR0XZE" frameborder="0" allowfullscreen></iframe></li>
+                <!--<li><iframe width="853" height="480" src="https://www.youtube.com/embed/f5D0sCExvuE" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/mmdZmCJLfeQ" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/czn6NXUx-oA" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/zYyO13TQFK0" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/1ZKtaS0FQpQ" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/LFwpEmngit8" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/BHbr77dRyA0" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/BUxttBH6620" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/PYCodqN8yVI" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/k2yvs5Xhz1w" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/Giy0zai5_Nc" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/6oZnySaZMw8" frameborder="0" allowfullscreen></iframe></li> 
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/l516j2JD1uY" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/QrxREaXTAMs" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/cn-T5PPD-Yw" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/WdVGAA-jCzo" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/XTbSUJ2bMH4" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/T0_kW80eRpQ" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/rPNTvFtU74M" frameborder="0" allowfullscreen></iframe></li>
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/PO5ixAOhlrY" frameborder="0" allowfullscreen></iframe></li>-->
+                <li><iframe width="853" height="480" src="https://www.youtube.com/embed/A3PFBUpXj9I" frameborder="0" allowfullscreen></iframe></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div id="gd" class="col-sm-6 col-sm-push-3  col-xs-8 col-xs-push-2 ghost move_right">→→→→戻る→→→→</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide active">
+        <div class="container">
+          <div id="gairon" class="row">
+            <div class="mnav col-sm-5 move_left">
+              <img src="img/ya.png" id="gy" alt="概論へ">
+              <img class="lm" src="img/logo_gairon.png" alt="噴水企画概論">
+            </div>  
+            <div class="col-sm-7 t">
+              <p>この講義では九州大学芸術工学部で開催される芸工祭にて、<br />大橋キャンパスの噴水の周りにステージを作り、劇、映像、音楽などを用いた公演を行う<br />前衛的エンターテイメント集団である噴水企画、<br />通称3研の魅力について学んでいきます。</p>   
+              <h1>噴水企画概論</h1>          
+            </div>
+          </div>
+
+          <div id="wb" class="row">
+            <div class="col-sm-7 t">
+              <h1>Wedding Building</h1>
+              <p>きずつき　きづく　愛を　きずく</p>
+              <p>あの3研がラブロマンスに挑戦！？<br />2015年5月に行われた噴水企画新歓公演<br />噴水企画の作り出す新しい愛のカタチをご覧あれ！</p> 
+            </div>
+            <div class=" mnav col-sm-5 move_right">
+              <img class="lm" src="img/logo_wb.png" alt="Wedding Building">
+              <img src="img/ya.png" id="wy" alt="新歓公演へ">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-push-1">
+              <p>噴水企画新歓公演 Wedding Building</p>
+              <div id="wedding">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/-dFnkM5O2bk" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="gd" class="col-sm-6 col-sm-push-4 col-xs-8 col-xs-push-2 ghost move_left">←←←←戻る←←←←</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <h1 class="h">ポスター</h1>
+          <p>噴水企画広報班の力が結集したポスターの数々だ！</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-push-1">
+            <ul class="bxslider">
+              <li><img width="160px" src="img/pos/syuka_1.png" alt="週間火星表紙"></li>
+           </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="container">
+        <div class="row">
+          <h1 class="h">お問い合わせ先</h1>
+          <p>噴水企画への質問や、噴水企画概論へのお便りはこちらから！<br />※別窓で開きます。</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="https://www.facebook.com/3kenfunsui" target="_blank"><div id="facebook">
+              <img src="img/logo_fb.png" alt="Facebook">
+            </div>
+            <p>噴水企画Facebook</p> 
+          </div></a>
+          <div class="col-sm-6">
+            <a href="https://twitter.com/3kenfunsui" target="_blank"><div id="twitter">
+              <img src="img/logo_tw.png" alt="Twitter">
+            </div>
+            <p>噴水企画Twitter@3kenfunsui</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!--FUllpage.js終わり-->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $('.bs-component [data-toggle="popover"]').popover();
+    $('.bs-component [data-toggle="tooltip"]').tooltip();
+  </script>
+
+</body>
+</html>

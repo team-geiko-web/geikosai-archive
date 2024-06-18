@@ -1,0 +1,22 @@
+/* panf.css Copyright (C) 2006, panf06 */
+
+
+body{
+scrollbar-face-color:		#ffffb0;
+scrollbar-base-color:		#ffffb0;
+scrollbar-highlight-color:	#ffffb0;
+scrollbar-shadow-color:		#ffffb0;
+scrollbar-arrow-color:		#323232;
+scrollbar-darkshadow-color:	#ffffb0;
+scrollbar-track-color:		#ffffb0;
+scrollbar-3dlight-color:	#ffffb0;
+}
+
+A{
+text-decoration:none;
+}
+
+A:hover{
+position:relative;top:1px;
+color:#000000;
+}

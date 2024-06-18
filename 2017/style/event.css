@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#jump{font-size: 25px;}
+
+.circleImg{
+	width:20%;
+	max-width: 200px;
+}
+.yellow .sns img{
+	width:5%;
+	min-width: 40px;
+	float:right;
+	}
+
+
+.eventlist{
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	display:flex;
+	margin: 0px ;
+}
+.eventlist li{
+	margin: 0px ;
+	list-style:none;
+}
+.eventlist h1{
+	min-width: 25%;
+}
+
+
+
+.date{
+	min-width: 230px;
+	cursor:pointer;
+	}
+.date:hover{
+	background: #7AD7D3;
+	}
+
+.OpenClose{
+	max-height: 20px;
+}
+
+@media screen and ( max-width : 600px ){
+	.Title2{
+	min-width:50px;
+	float:left;
+	}
+}
+
+@media screen and ( max-width : 400px ){
+.mojikeshi{
+	display: none;
+	}
+}
+
+.yellow img{
+	width:30%;
+	float:right;
+	margin:10px;
+	}
+
+@media screen and ( max-width :980px ){
+	.schedule{
+		display: none;
+		}
+	}
+.scImg{
+	display:none;
+	background:rgba(255,255,255,0.80);
+}
+@media screen and ( max-width :980px ){
+	.scImg{
+		display:block;
+		}
+	}
+
+
+.schedule table{
+	width:100%;
+	margin-bottom:50px;
+	}
+@media screen and ( max-width :1164px ){
+	.schedule table{
+		font-size:18px;
+		}
+	}
+
+.schedule th{
+	background-color:rgba(255,255,255,0.94);
+	padding:0;
+	height:10px;
+	width:3%;
+	}	
+.schedule th:nth-child(odd){
+	border-right:solid #3F8EA8;
+	background-color:rgba(255,255,255,0.94);
+	padding:0;
+	height:10px;
+	width:3%;
+	}	
+.schedule th:first-child{
+	width:12%;
+	}
+.schedule td{
+	background-color:rgba(255,255,255,0.94);
+	padding:0;
+	border: solid rgba(207,207,207,0.10);
+	height:100%;
+	width:3%;
+	}	
+	
+.schedule td:first-child{
+	background-color:white;
+	border-radius: 10px;
+	color:#3F8EA8;
+	width:12%;
+	border:solid #3F8EA8;
+	min-width: 98px;
+	}
+	
+.schedule td a{
+	text-decoration:none;
+	display:block;
+	margin:0;
+	}
+
+td a.redB{
+	background-color:rgba(201,117,117,0.80);
+	color:rgba(255,255,255,1.00);
+	border-radius:5px;
+	height:100%;
+	}
+	td a.redB:hover{
+	background-color:rgba(201,117,117,1.00);
+	}
+	
+td a.blueB{
+	background-color:rgba(78,173,204,0.80);
+	color:rgba(255,255,255,1.00);
+	border-radius:5px;
+	height:100%;
+	}
+	td a.blueB:hover{
+	background-color:rgba(78,173,204,1.00);
+	}
+	
+td a.greenB{
+	background-color:rgba(153,204,102,0.80);
+	color:rgba(255,255,255,1.00);
+	border-radius:5px;
+	height:100%;
+	}
+	td a.greenB:hover{
+	background-color:rgba(153,204,102,1.00);
+	}
+

@@ -1,0 +1,4 @@
+<svg viewBox="0 0 550 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.cls-1{fill-opacity:0;stroke-width: 10px;stroke:#222;paint-order:stroke;}.mask{fill:#FFF;stroke-width:2px;stroke:#FFF;}</style></defs>
+  <title>ドア枠２</title><path class="cls-1" d="M 275 0 C 426.879 0 550 123.121 550 275 L 550 1000 C 550 1000 550 1000 550 1000 L 0 1000 C 0 1000 0 1000 0 1000 L 0 275 C 0 123.121 123.122 0 275 0 Z"></path><path class="mask" d="M 0 0 L 550 0 L 550 275 C 550 123.121 426.879 0 275 0 C 123.122 0 0 123.121 0 275 Z"></path>
+</svg>

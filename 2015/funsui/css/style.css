@@ -1,0 +1,466 @@
+h1 {
+  font-size: 1.5em;
+}
+
+h1.h {
+  border-bottom: solid 1px #afeeee;
+}
+
+p {
+  font-size: 0.82em;
+}
+
+div#title1{
+	background-image: url("../img/bg_top.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 345%;
+}
+
+
+div.tr,
+div.tl {
+  margin-top: -50px;
+  margin-left:-8px;
+}
+
+div.title {
+	font-size: 6em;
+	color: white;
+	opacity: 0.5;
+  text-align: center; 
+}
+
+div.ws {
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: -32px;
+}
+
+.ghost{
+  display: inline-block;
+  padding: 10px 30px;
+  border: solid 2px #fff;
+  border-radius: 0px;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.6;  
+  margin: auto;
+  text-align: center;
+}
+.ghost:hover{
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+  opacity: 1;
+}
+
+div#about,
+div#head {
+  text-align: center;
+}
+
+div#about {
+  background-color: #afeeee;
+  background-image: url(../img/bg_f.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300%;
+}
+
+div#head {
+  background-color: #000;
+  background-image: url(../img/bg_h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320%;
+}
+
+div.fimg {
+  background-color: rgba(0,0,0,0.6);
+}
+
+div.fimg img,
+div.himg img{
+  width: 70%;
+  margin: 0;
+}
+
+div.img img{
+  width: 50%;
+  margin: 0;
+}
+
+img.logo_geikou {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+div.fimg p,
+div.himg p{
+  color: #afeeee;
+}
+
+div#al,
+div#hr,
+div.mt {
+  background: rgba(0,0,0,0.6);
+  color: #afeeee;
+}
+
+div#mars {
+  background-color: #000;
+  background-image: url(../img/bg_mars.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 260%;
+}
+
+div.gt {
+  margin-top: 50px;
+}
+
+div.gu,
+div.gd {
+  margin: 0;
+}
+
+
+div#mars h1.h {
+  padding-left: 24px;
+  color: #afeeee;
+}
+
+div#mars img#logo_mars{
+  width: 80%;
+  margin-left: 5%;
+}
+
+div#map img{
+  width: 280px;
+  height: auto;
+  margin: 16px 0;
+}
+
+div#movie {
+  background-color: #dbffed;
+}
+
+div#movie h1 {
+  font-size: 2.8em;
+  margin-top: 0;
+}
+
+div#gairon div.t {
+  background-color: rgba(135, 206, 250, 0.6);
+  padding-top: 16px;
+  font-size: 0.82em;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+img#gy,
+img#wy{
+  width: 16%;
+  filter: alpha(opacity=50);
+  -moz-opacity:0.5;
+  opacity:0.5;
+}
+
+img#gy {
+  transform: rotate(180deg);
+}
+
+
+img.lm {
+  width: 80%;
+}
+
+
+
+div#wb div.t{
+  text-align: right;
+  background-color: rgba(255, 255, 127, 0.6);
+  font-size: 0.82em;
+  padding-bottom: 16px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.mnav{
+  background-color: rgba(255,255,255,0.1);
+  border: solid 2px #cda;
+  border-radius: 0px;
+}
+
+.mnav:hover {
+  background-color: rgba(255,255, 255, 0.6);
+}
+
+.sliderL {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 880px;/*使用画像の幅*/
+}
+
+.bx-wrapper {/*reset*/
+  position: relative;
+  margin: 0 0 50px;
+  padding: 0;
+  *zoom: 1;
+}
+.bx-wrapper iframe {
+  width: 100%;
+  height: auto;/*auto又は100%に指定・縦横比を維持する*/
+  display: block;
+}
+
+.bx-wrapper img {
+  width: 80%;
+  height: auto;/*auto又は100%に指定・縦横比を維持する*/
+  display: block;
+}
+
+.bx-wrapper .bx-pager {/*ページャーの表示位置など*/
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+
+
+
+#loader-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  z-index: 1;
+}
+#loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+div#contact {
+  background-color: #e0ffff;
+  text-align: center;
+}
+
+div#facebook {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+div#facebook img{
+  width: 100%;
+}
+
+div#twitter {
+  width: 35%;
+  height: auto;
+  background-color: #55acee;
+  margin: auto;
+  margin-top: 50px;
+}
+
+div#twitter img{
+  width: 75%;
+  margin-top: 12.5%;
+}
+
+@media (min-width: 768px) {
+  div#title1{
+    background-size: 180%;
+  }
+
+
+  div.title{
+    font-size: 7.1em; 
+  }
+
+  div.tl{
+    text-align:right;
+    margin:0;
+    padding:0;
+  }
+  div.tr{
+    text-align:left;
+    margin:0;
+    padding:0;
+  }
+
+  div#about {
+    background-size: 140%;
+  }
+
+
+  div#ft,
+  div#ht {
+    margin-top: 0px;
+  }
+
+  div.img-wrap {
+    height: 100px;
+  }
+
+  div.img img.logo_geikou{
+  width: 80%;
+  margin: 0;
+}
+
+  div.fimg,
+  div.himg {
+    padding:0;
+    margin-top: -0px;
+  }
+
+  div.fimg img,
+  div.himg img{
+    width: 100%;
+    margin: 0;
+  }
+
+  div#head {
+    background-size: 160%;
+  }
+
+  div#mars {
+    background-size: 120%;
+  }
+
+  div#mars img#logo_mars{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 5%;
+  }
+  
+  div.mt {
+    padding-right: 20%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+
+  div#movie h1 {
+    font-size: 3em;
+  }
+
+  div#gairon div {
+    padding: 16px;
+    font-size: 1em;
+
+  }
+
+  div#wb div{
+    text-align: right;
+    padding: 16px;
+    font-size: 1em;
+  }
+
+  .bx-wrapper img {
+    width: 50%;
+    height: auto;/*auto又は100%に指定・縦横比を維持する*/
+    display: block;
+  }
+
+}
+
+@media (min-width: 992px) {
+  div#title1{
+    background-size: 150%;
+  }
+
+  div.title {
+    font-size: 9em;
+  }
+
+  div#about {
+    background-size: 120%;
+  }
+
+  div#ft,
+  div#ht {
+    margin-top: 60px;
+  }
+
+  div.fimg,
+  div.himg {
+    padding:0;
+    margin-top: -60px;
+  }
+
+
+  div#head {
+    background-size: 120%;
+  }
+
+  div#mars {
+    background-size: 100%;
+  }
+
+  div#movie h1 {
+    font-size: 4em;
+  }
+
+  .bx-wrapper img {
+    width: 30%;
+    height: auto;/*auto又は100%に指定・縦横比を維持する*/
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  div#title1{
+    background-size: 130%;
+  }
+
+  div.img-wrap {
+    height: 150px;
+  }
+
+  div#head {
+    background-size: 100%;
+  }
+
+  div#ht {
+    margin-top: 80px;
+  }
+
+  div.himg{
+    margin-top: -80px;
+  }
+
+  div#about {
+    background-size: 100%;
+  }
+
+  div.title {
+    font-size: 11em;
+  }
+
+  div#mars div.ml {
+    margin-top: -80px;
+  }
+
+  div#mars img#logo_mars{
+    width: 60%;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+    <script src="http://maps.google.com/maps?file=api&v=1&key=ABQIAAAAs1wOZ6TciW95U8j5FvpuWhRV1Pyj9GEBn7KS41rbzRTUFcNTURTso_su_o1Lsy91Igza57PzLMP-oA"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+    <style type="text/css">
+<!--
+.style3 {
+	font-size: large;
+	font-weight: bold;
+}
+-->
+    </style>
+  </head>
+
+
+<body>
+<table width="460" height="49" border="0">
+  <tr>
+    <td width="460" height="45"><div align="center">
+      <p align="left"><span class="style3">会場案内</span></p>
+      <p align="left">■場所</p>
+      <p align="left">九州大学大橋キャンパス５号館ほか</p>
+      <p align="left"><em><br />
+        </em> ■周辺マップ</p>
+    </div></td>
+  </tr>
+</table>
+
+    <div id="map" style="width: 420px; height: 300px"></div>
+	<script type="text/javascript">
+	//<![CDATA[
+    
+        var map = new GMap(document.getElementById("map"));
+		map.addControl(new GLargeMapControl());
+        map.centerAndZoom(new GPoint(130.42910, 33.560039), 1);
+		marker = new GMarker(new GPoint(130.42910, 33.559939));
+		map.addOverlay(marker);
+		
+      
+    //]]>
+    </script>
+
+<table width="460" height="202" border="0">
+  <tr>
+    <td width="460"><div align="center">
+      <p align="left">&nbsp;</p>
+      <p align="left">■アクセス</p>
+      <p align="left"><strong>西鉄福岡（天神）駅より<br />
+        </strong>→      大橋駅下車 東口より徒歩5分</p>
+      <p align="left"><strong>JR博多駅より<br />
+        </strong>→
+
+
+ バス（47番、48番）塩原四丁目下車　徒歩3分        </p>
+      <p align="left">■会場内案内</p>
+      <p align="left">＞＞準備中です<em><br>
+        </em></p>
+    </div></td>
+  </tr>
+</table>
+</body>
+</html>

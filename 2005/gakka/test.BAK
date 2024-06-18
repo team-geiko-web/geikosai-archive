@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+<meta name="keywords" content="九州大学,芸工大,芸術工学部,芸術工科大学.九州.福岡,学園祭,学祭り">
+<meta name="description" content="九州大学大橋キャンパス芸工祭の学科企画の紹介です。">
+<style type="text/css">
+<!--
+#a{font-size : 10pt }
+#b{font-size : 12pt }
+#c{font-size : 16pt }
+#d{font-size : 18pt } 
+-->
+body{
+
+         background-image:url(ad.jpg);
+
+         background-attachment:fixed;
+
+         background-repeat:repeat-y;
+
+         background-position:90% 10%;
+
+     }
+
+</style>
+
+</head>
+
+<body>
+<left><font id="b"><a href="http://www.design.kyushu-u.ac.jp/~festival/top.html">学祭TOPへ</a></font></left>
+
+<table height = "10%" width="100%" border = "0" >
+<tr>
+<td align = "center" valign="top">
+<table height="350" width = "700" border="0">
+
+<tr>
+<td " valign="top"><center><font id="d">芸工紹介展</font> <font id="b">～芸工解体～</font><br><br> 
+</center></tr>
+
+
+
+
+<th　width="700" height="200"><br><br>
+<font id="b">この企画は九州大学の中でも特殊な芸術工学部をわかってもらうための企画です。<br>
+芸術工学部の各教授や研究室、学生からパネルや作品を提出してもらい展示します。<br>
+芸術工学部の受験を考えている方だけでなく、ただ単に興味がある方も楽しめるかもしれません。<br>
+大橋キャンパス芸工祭にお越しの際は是非とも覗いてみて下さい。<br>
+スタンプラリーも開催しますので楽しみに待っていてくださいね。</font><br><br></th>
+</th>
+
+
+
+
+<tr>
+<td aligin ="left" valign="top"><b><font id="c">展示時間</b></td>
+</tr>
+<tr>
+<td aligin ="left" valign="top"><font id="b">11月18日　10:00～17:00</td>
+</tr>
+<tr>
+<td aligin ="left" valign="top"><font id="b">11月19日　10:00～17:00</td>
+</tr>
+<tr><td><font id="b">11月20日　10:00～15:00<br><br><br></td>
+</tr>
+
+
+
+<tr>
+<td><b><font id="c">展示場所<font id="a"><a href="javascript:;" onclick="window.open('map.htm','','width=840,height=800')">-学内マップはこちら-</font></a> <font></b></td>
+
+</tr>
+<tr>
+<td><font id="b">5号館（511,524,529,522,531）4F製図室</font></td>
+</tr>
+<tr>
+<td><font id="b">6号館2F　竹田研究室</font></td>
+</tr>
+<tr><td><font id="b">1号館4F</font></td>
+</tr>
+<tr><td><font id="b">3号館無響室</font></td>
+</tr>
+<tr><td><font id="b">ホモトロン</font></td>
+</tr>
+<tr><td><font id="b">音響特殊棟　3F無響室　B1F半無響室</font><br><br></td>
+</tr>
+
+<tr><td><font id="c"><a href="javascript:;"onclick="window.open('gakka.htm','','width=840,height=800')">-各学科の展示一覧（準備中-）</a></font><br><br></td></tr>
+
+<tr><td><font id="a">時々更新するので楽しみにしててくださいね。</font></td></tr>
+
+
+
+</table>
+</td>
+</tr>
+</table>
+</body>
+
+</html>

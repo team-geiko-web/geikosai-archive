@@ -1,0 +1,100 @@
+body { background-image:url(../img/back.jpg);
+	color:#663300;
+	font-size:13px;
+	line-height:130%;}
+a:link { color:#0099FF;}
+a:visited { color:#0099FF;}
+a:active { color:#FF0000;}
+a:hover { color:#FF0000;}
+h1:first-letter { color:#99CCFF;
+	font-size:150%;}
+h1 { color:#663300;
+	border-bottom:3px solid #663300;
+	padding-bottom:9px;}
+h4:first-letter { color:#99CCFF;
+	font-size:150%;}
+h4 { color:#663300;
+	border-bottom:2px solid #663300;
+	padding-bottom:3px;}
+h5 { color:#663300;
+	border-bottom:2px solid #663300;}
+h5:first-letter { color:#99CCFF;
+	font-size:120%;}
+td,th {font-size:12px;
+	line-height:130%;}
+.subtitle { color:#663300;
+	     font-size:40%;}
+.count { font-size:19px;
+	font-weight:bold;
+	text-align:center;}
+.count2 { font-size:150%;
+	color:#FF0000;}
+.blog { font-size:15px;}
+.blog2 { font-size:13px;
+	text-indent:1em;}
+.access { font-size:13px;
+	text-indent:1em;
+	text-height:130%}
+.chui { font-size:12px;
+	color:#FF0000;
+	font-weghit:bold;}
+.small { font-size:12px;}
+.margin1 { margin-left:1em;}
+.margin { margin-left:2em;}
+.info { font-size:14px;
+	font-weight:bold;}
+.ippan1 { font-size : 16px;
+	text-decoration:underline;
+	font-weight:bold;}
+.ippan2 { font-size : 16px;
+	background-color : #C0C0C0;
+	font-weight:bold;}
+.ippan3 { line-height : 25px;}
+.ippan4 { line-height : 20px;
+	font-weight:bold;}
+.kawakudari { font-size:14px;
+	font-weight:bold;
+	text-align:center;}
+.red { color:#FF0000;}
+.kansha { color:#FF0000;
+	font-weight:bold;
+	font-size:16px;}
+.kodama { width:840;}
+.kodama1 { font-weight:bold;
+	font-size:21px;
+	text-align:center;}
+.kodama2 { font-weight:bold;
+	font-size:19px;
+	text-align:center;}
+.kodama3 { font-weight:bold;
+	font-size:17px;
+	text-align:center;
+	width:180;}
+.kodama4 { font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	width:150;}
+.kodama5 { font-weight:bold;
+	font-size:13px;
+	text-align:center;
+	width:150;}
+.kodama6 { font-weight:bold;
+	font-size:11px;
+	text-align:center;
+	width:140;}
+.t1{ width:1000;
+	height:250;
+	position:absolute;
+	top:0px;
+	left:0px;}
+.t2 { width:300;
+	height:166;
+	overflow-y:scroll;}
+.t3 { width:600;}
+.t4 { text-align:right;}
+.td1 { width:500;}
+.td2 { width:300;}
+.td3 { width:450;}
+.td4 { width:200;}
+	
+

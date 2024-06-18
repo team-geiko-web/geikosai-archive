@@ -1,0 +1,41 @@
+body {	margin:0px;
+	font-size:13px;
+	line-height:130%;}
+a:link { color:#FF0000;}
+a:visited { color:#FF0000;}
+a:active { color:#999999;}
+.td-left { width:20%;}
+.td-center { width:65%;
+	text-align:center;}
+.td-right { width:15%;}
+.image-td { width:80px;}
+.coment-td { width:270px;}
+.maintable { width:500px;
+	height:500px;
+	overflow-y:scroll;
+	background-color:#CCCCCC;
+	padding:10px 5px;
+	scrollbar-track-color: #CCCCCC;
+	scrollbar-face-color: #000000;
+	scrollbar-shadow-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-highlight-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #FFFFFF;}
+.text { text-align:center;}
+.right { text-align:right;}
+.busyo { width:400px;}
+.member { width:350px;}
+.goken { width:300px;}
+.title { font-size:28px;
+	font-weight:bold;
+	color:#808080;}
+.bold {	font-weight:bold;}
+.red { color:#FF0000;}
+.small { font-size:12px;}
+.11 { font-size:11px;}
+.10-gray { font-size:10px;
+	color:#808080;}
+.14-bold{ font-size:14px;
+	font-weight:bold;}
+td { font-size:13px;}

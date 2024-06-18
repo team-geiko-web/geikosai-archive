@@ -1,0 +1,139 @@
+.commingsoon {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+/* main */
+.sodan {
+    font-size: 25px;
+}
+
+.main {
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+
+.sub-letter {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    color: white;
+    padding: 5px 30px;
+
+}
+
+.sub-text {
+    width: fit-content;
+    margin-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    background-color: rgb(186, 173, 195);
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.exp-text {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 22vw;
+    margin-right: 22vw;
+}
+
+.inf-text {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    font-weight: 600;
+}
+
+.link-letter {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+
+.link1-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    width: 200px;
+    height: 30px;
+}
+
+.link2-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    width: 240px;
+    height: 30px;
+}
+
+.link3-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    width: 150px;
+    height: 30px;
+}
+
+.tenji-img {
+    margin-top: 10px;
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.work-img {
+    margin-top: 10px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.fry-img {
+    margin-top: 10px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+@media screen and (max-width: 860px) {
+
+    .tenji-img {
+        margin-top: 10px;
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+
+    .work-img {
+        margin-top: 10px;
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+
+    .fry-img {
+        margin-top: 10px;
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+    .inf-text{
+        font-size: 15px;
+    }
+    .sodan{
+        font-size: 18px;
+    }
+    .sub-letter{
+        font-size: 15px;
+    }
+
+}

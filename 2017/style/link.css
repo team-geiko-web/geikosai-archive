@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+		
+.list{
+	width:90%;
+	margin-left:5%;
+	float:left;
+	font-size: 20px;
+	}
+
+table{
+	margin-left:5%;
+}
+th{
+	float:left;
+}
+td{
+	padding:0 10px;
+}
+
+#daigaku a span{
+	color: #439E99;
+	text-decoration:underline;
+}
+
+.color1{background: #F0E7CE;}
+.color2{background: #FFFFFF;}
+

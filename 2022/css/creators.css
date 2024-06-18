@@ -1,0 +1,53 @@
+
+.left {
+    padding: 10px !important;
+}
+
+/* main */
+.main {
+    margin-top: 5%;
+}
+
+.midashi {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hp-link {
+    margin: auto;
+    padding: 10px;
+    width: 350px;
+    background-color: #4DC9CB;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.hp-link:hover{
+    background-color: #FFF;
+    color: #4DC9CB;
+    border:2px solid #4DC9CB;
+    transition: 0.5s ;
+}
+.creators-img img{
+    display: block;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0px;
+}
+.hosoku{
+    margin-left: 23vw;
+    margin-right: 23vw;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+    .creators-img img{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    }
+}

@@ -1,0 +1,31 @@
+.headline {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";
+	font-size: 12px;
+	line-height: 15px;
+	color: #3D3D3D;
+}
+.text {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";
+	line-height: 130%;
+	color: #3d3d3d;
+}
+a:link {
+	color: 2a5783;
+	text-decoration: underline;
+
+}
+a:visited {
+	color: 2a5783;
+	text-decoration: underline;
+
+}
+a:hover {
+	color: #7194B7;
+	text-decoration: none;
+
+}
+a:active {
+
+	color: 2a5783;
+	text-decoration: underline;
+}

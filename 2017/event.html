@@ -1,0 +1,677 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style/event.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+
+<!--faviconの設定-->
+<link rel="shortcut icon" href="http://www.design.kyushu-u.ac.jp/~festival/2017/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="http://www.design.kyushu-u.ac.jp/~festival/2017/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+<title>イベント</title>
+</head>
+<div class="header"><a href="index.html"><img src="images/logow.png" alt="geikofes_logo" width="15%"></a><img id="headImage" src="images/headImage.png" width="85%">
+  <div id="menu-box">
+    <div id="toggle"><a href="#">menu</a></div>
+    <ul id="menu" class="">
+      <li><a href="index.html">トップページ</a></li>
+      <li><a href="geikofesQ.html">芸工祭とは？</a></li>
+      <li><a href="forVisitors.html">ご来場の方へ</a></li>
+      <li class="on"><a href="event.html">イベント</a></li>
+      <li><a href="tent.html">テント企画</a></li>
+      <li><a href="fesProject.html">企画団体</a></li>
+      <li><a href="designQ.html">芸工とは？</a></li>
+      <li><a href="sponsor.html">協賛</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+      <li><a href="link.html">リンク</a></li>
+    </ul>
+  </div>
+</div>
+<div class="back">
+  <div align="center">
+    <div class="body">
+      <div class="Title">
+        <div align="left">*イベント*</div>
+      </div>
+      <div class="text90">
+        <div class="pankuzu">
+          <p class="panhome"></p>
+          <p align="left"><a href="index.html">トップ</a>> イベント</p>
+        </div>
+        <a href="#eventlists"  class="button" id="jump"><span class="block">イベント</span>一覧へ</a>
+        
+        <!-------------------------------------------------------イベントマップ--------------------------------------------------------->
+        <div class="bar">
+          <div align="left">
+            <h2><a name="eventlist">イベントマップ</a></h2>
+          </div>
+        </div>
+        <img src="images/eventMap.png" alt="イベントマップ" width="95%">
+        
+        <!-------------------------------------------------------スケジュール--------------------------------------------------------->
+        <div class="bar">
+          <div align="left">
+            <h2><a name="eventlist">スケジュール</a></h2>
+          </div>
+        </div>
+        <br>
+        <!--------------------------------------------前夜祭スケジュール---------------------------------------------->
+        <div id="on0">
+          <div class="Title2 date" onClick="document.getElementById('off0').style.display='block';
+							document.getElementById('on0').style.display='none'">
+			  <div align="left">　<img src="images/open.png" class="OpenClose">前夜祭10/6(金)　</div>
+          </div>
+        </div>
+        <div id="off0" style="display:none">
+          <div class="Title2 date" onClick="document.getElementById('off0').style.display='none';
+          			  document.getElementById('on0').style.display='block'">
+            <div align="left">　<img src="images/close.png" class="OpenClose">前夜祭10/6(金)　</div>
+          </div>
+          <div class="schedule">
+            <table>
+              <tr>
+                <th></th>
+                <th>9</th>
+                <th></th>
+                <th>10</th>
+                <th></th>
+                <th>11</th>
+                <th></th>
+                <th>12</th>
+                <th></th>
+                <th>13</th>
+                <th></th>
+                <th>14</th>
+                <th></th>
+                <th>15</th>
+                <th></th>
+                <th>16</th>
+                <th></th>
+                <th>17</th>
+                <th></th>
+                <th>18</th>
+                <th></th>
+                <th>19</th>
+                <th></th>
+                <th>20</th>
+                <th></th>
+                <th>21</th>
+              </tr>
+              <tr>
+                <td>多次元</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td colspan="5"><a href="fesProject.html#zenya" class="redB">ZENYA</a></td>
+                <td></td>
+                <td></td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <img src="images/s0.png" width="100%" class="scImg">
+        </div>
+        
+        <!--------------------------------------------１日目スケジュール---------------------------------------------->
+        <div id="on1">
+          <div class="Title2 date" onClick="document.getElementById('off1').style.display='block';
+						document.getElementById('on1').style.display='none'">
+            <div align="left">　<img src="images/open.png" class="OpenClose">１日目10/7(土)　</div>
+          </div>
+        </div>
+        <div id="off1" style="display:none">
+          <div class="Title2 date" onClick="document.getElementById('off1').style.display='none';
+          			  document.getElementById('on1').style.display='block'">
+            <div align="left">　<img src="images/close.png" class="OpenClose">１日目10/7(土)　</div>
+          </div>
+          <div class="schedule">
+            <table>
+              <tr>
+                <th></th>
+                <th>9</th>
+                <th></th>
+                <th>10</th>
+                <th></th>
+                <th>11</th>
+                <th></th>
+                <th>12</th>
+                <th></th>
+                <th>13</th>
+                <th></th>
+                <th>14</th>
+                <th></th>
+                <th>15</th>
+                <th></th>
+                <th>16</th>
+                <th></th>
+                <th>17</th>
+                <th></th>
+                <th>18</th>
+                <th></th>
+                <th>19</th>
+                <th></th>
+                <th>20</th>
+                <th></th>
+                <th>21</th>
+              </tr>
+              <tr>
+                <td>多次元</td>
+                <td>　</td>
+                <td>　</td>
+                <td><a href="fesProject.html#cba" class="redB">CBA</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td><a href="fesProject.html#cba" class="redB">CBA</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td colspan="9"><a href="fesProject.html#2ken" class="redB">2研企画</a></td>
+                <td></td>
+              </tr>
+              
+              <tr>
+                <td>グラウンド</td>
+                <td>　</td>
+                <td colspan="2" rowspan="2"><a href="fesProject.html#himatsuri" class="redB">火祭</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>噴水</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td colspan="8"><a href="circle.html#kakken" class="blueB">青空プロレス</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td colspan="4"><a href="fesProject.html#funsui" class="redB">噴水企画</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>厚生棟食堂</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td colspan="15"><a href="circle.html#unagi" class="blueB">ライブカフェうなぎ</a></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>７号館</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td colspan="21"><a href="circle.html#anima" class="blueB">Anima Production 展示会</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>５号館 512</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td colspan="21"><a href="circle.html#imp" class="blueB">GAME CENTER impression!</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>５号館</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="10"><a href="designQ.html#tenji" class="blueB">芸工紹介展・芸工相談室</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>フライパン</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td colspan="15"><a href="fryingpanLive.html" class="blueB">フライパンライブ</a></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>テント</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="21"><a href="tent.html" class="greenB">テント企画　(噴水周辺は18:50まで)</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th></th>
+                <th>9</th>
+                <th></th>
+                <th>10</th>
+                <th></th>
+                <th>11</th>
+                <th></th>
+                <th>12</th>
+                <th></th>
+                <th>13</th>
+                <th></th>
+                <th>14</th>
+                <th></th>
+                <th>15</th>
+                <th></th>
+                <th>16</th>
+                <th></th>
+                <th>17</th>
+                <th></th>
+                <th>18</th>
+                <th></th>
+                <th>19</th>
+                <th></th>
+                <th>20</th>
+                <th></th>
+                <th>21</th>
+              </tr>
+            </table>
+          </div>
+          <img src="images/s1.png" width="100%" class="scImg">
+        </div>
+        
+        
+        <!--------------------------------------------２日目スケジュール---------------------------------------------->
+        <div id="on2">
+          <div class="Title2 date" onClick="document.getElementById('off2').style.display='block';
+						document.getElementById('on2').style.display='none'">
+            <div align="left">　<img src="images/open.png" class="OpenClose">２日目10/8(日)　</div>
+          </div>
+        </div>
+        <div id="off2" style="display:none">
+          <div class="Title2 date" onClick="document.getElementById('off2').style.display='none';
+          			  document.getElementById('on2').style.display='block'">
+            <div align="left">　<img src="images/close.png" class="OpenClose">２日目10/8(日)　</div>
+          </div>
+          <div class="schedule">
+            <table>
+              <tr>
+                <th></th>
+                <th>9</th>
+                <th></th>
+                <th>10</th>
+                <th></th>
+                <th>11</th>
+                <th></th>
+                <th>12</th>
+                <th></th>
+                <th>13</th>
+                <th></th>
+                <th>14</th>
+                <th></th>
+                <th>15</th>
+                <th></th>
+                <th>16</th>
+                <th></th>
+                <th>17</th>
+                <th></th>
+                <th>18</th>
+                <th></th>
+                <th>19</th>
+                <th></th>
+                <th>20</th>
+                <th></th>
+                <th>21</th>
+              </tr>
+              <tr>
+                <td>多次元</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td colspan="7"><a href="fesProject.html#danpa" class="redB">DANPA</a></td>
+                <td></td>
+                <td></td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>グラウンド</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3"><a href="fesProject.html#himatsuri" class="redB">火祭</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>噴水</td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="8"><a href="circle.html#kakken" class="blueB">青空プロレス</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>厚生棟食堂</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="11"><a href="circle.html#unagi" class="blueB">ライブカフェうなぎ</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>７号館</td>
+                <td>　</td>
+                <td></td>
+                <td colspan="12"><a href="circle.html#anima" class="blueB">Anima Production 展示会</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>７号館</td>
+                <td></td>
+                <td colspan="13"><a href="workshop.html" class="blueB">ワークショップ</a></td>
+                <td></td>
+                <td></td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>フライパン</td>
+                <td></td>
+                <td></td>
+                <td colspan="12"><a href="fryingpanLive.html" class="blueB">フライパンライブ</a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>５号館 512</td>
+                <td>　</td>
+                <td></td>
+                <td colspan="12"><a href="circle.html#imp" class="blueB">GAME CENTER impression!</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>５号館</td>
+                <td></td>
+                <td></td>
+                <td colspan="10"><a href="designQ.html#tenji" class="blueB">芸工紹介展</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>３号館</td>
+                <td>　</td>
+                <td></td>
+                <td colspan="8"><a href="circle.html#sadou" class="blueB">表千家茶道部学生茶会</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>テント</td>
+                <td></td>
+                <td></td>
+                <td colspan="12"><a href="tent.html" class="greenB">テント企画<br></a></td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td>　</td>
+                <td></td>
+                <td>　</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th></th>
+                <th>9</th>
+                <th></th>
+                <th>10</th>
+                <th></th>
+                <th>11</th>
+                <th></th>
+                <th>12</th>
+                <th></th>
+                <th>13</th>
+                <th></th>
+                <th>14</th>
+                <th></th>
+                <th>15</th>
+                <th></th>
+                <th>16</th>
+                <th></th>
+                <th>17</th>
+                <th></th>
+                <th>18</th>
+                <th></th>
+                <th>19</th>
+                <th></th>
+                <th>20</th>
+                <th></th>
+                <th>21</th>
+              </tr>
+            </table>
+          </div>
+          <img src="images/s2.png" width="100%" class="scImg">
+        </div>
+        
+        <p><span class="block">スケジュールや開催場所は</span><span class="block">変更の可能性があります</span></p>
+        <!--------------------------------------------------スケジュールここまで------------------------------------------------------>
+        
+        
+        
+        
+        <!--------------------------------------------イベント一覧---------------------------------------------->
+        <div class="bar">
+          <div align="left">
+            <h2><a name="eventlists">イベント一覧</a></h2>
+          </div>
+        </div>
+        <br>
+        <ul class="eventlist">
+         
+			<li><!--テント企画-->
+				<h1><a href="tent.html" class="button">テント<span class="block">企画</span></a></h1></li>
+          <li><!--学祭企画-->
+			  <h1><a href="fesProject.html" class="button">学祭<span class="block">企画</span></a></h1></li>
+          <!--/div>
+        <div class="eventlist"-->
+          <li><!--展示会-->
+			  <h1><a href="designQ.html#tenji" class="button">芸工<span class="block">紹介展</span></a></h1></li>
+          <li><!--芸工相談室-->
+			  <h1><a href="designQ.html#sodan" class="button">芸工<span class="block">相談室</span></a></h1></li>
+          <!--/div>
+        <div class="eventlist"-->
+          <li><!--フライパンライブ-->
+			  <h1><a href="fryingpanLive.html" class="button">フライパン<span class="block">ライブ</span></a></h1></li>
+          <li><!--ワークショップ-->
+			  <h1><a href="workshop.html" class="button">ワーク<span class="block">ショップ</span></a></h1></li>
+          <!--/div>
+        <div class="eventlist"-->
+          <li><!--サークル-->
+			  <h1><a href="circle.html" class="button">サークル<span class="block">企画</span></a></h1></li>
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<iframe src="footter.html" frameborder="0" height="100%" width="100%" marginwidth="0" marginheight="0" frameborder="0" width="100%">
+</iframe>
+<body>
+</body>
+</html>

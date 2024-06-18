@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.areaButtonOn{
+	position: relative;
+	cursor:pointer;
+	color:white;
+	width:30%;
+	margin:5px;
+	background-color:#EC6B6B;
+	border-radius:15px;
+	box-shadow: 0 4px 0 0 #B72F2F;
+}
+.areaButtonOn:hover{
+	background-color:#FF9494;
+}
+.areaButtonOff{
+	position: relative;
+	cursor:pointer;
+	color:white;
+	width:30%;
+	margin:5px;
+	background-color:#EC6B6B;
+	border-radius:15px;
+	top:6px;
+	box-shadow: 0 -2px 0 0 #B72F2F;
+}
+.areaButtonOff:hover{
+	background-color:#FF9494;
+}
+
+.tents{
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	display:flex;
+}
+
+.tent{
+	width:29%;
+	background-color:rgba(255,255,255,0.90);
+	border:3px solid #439E99;
+	margin:2px;
+	border-radius:15px;
+	min-height:120px;
+	padding:1.5%;
+	align-items: stretch;
+	}
+
+#inform{
+	width:95%;
+}
+@media screen and ( max-width : 1000px ){
+	#inform p:last-child{
+		float:left;
+	}
+}
+
+
+.tentA{
+	width:40px;
+	height: 40px;
+	font-size:30px;
+	background: #EC6B6B;
+	color:white;
+	font-weight: bold;
+	margin:10px;
+	height:40px;
+	border-radius:25px;
+	padding:5px;
+	float: left;
+}
+
+.tent img{
+	float:right;
+	width:33%;
+	max-width:150px;
+	margin:5px;
+}
+.tent #inf{
+	width:90%;
+	max-width:450px;
+}
+
+@media screen and ( max-width : 1136px ){
+	.tent{
+	width:45%;
+	}
+	#inform{
+		width:93%
+	}
+}
+
+@media screen and ( max-width : 761px ){
+	.tentA{
+		width:30px;
+		font-size:20px;
+		height:30px;
+		margin-top: 10px;
+	}
+	.tent{
+	width:90%;
+	}
+	#inform{
+		width:90%
+	}
+	.tent img{
+	max-width:140px;
+	}
+}

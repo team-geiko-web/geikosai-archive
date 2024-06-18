@@ -1,0 +1,96 @@
+
+html {
+    background: url(img/1.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+    a:link { color: #ffffff; } 
+    a:visited { color: #ffffff; } 
+    a:hover { color: #ffffff; } 
+    a:active { color: #ffffff; } 
+
+
+
+body { font-family: 'メイリオ',
+     'Hiragino Kaku Gothic Pro',
+     sans-serif;
+  　　color: #ffffff;
+     padding: 15px;
+     margin: 0}
+
+
+h2   {font-size: 30px;
+      color: #ffffff;
+      margin-top: 0;
+      padding: 15px;
+      margin-bottom: 0;}
+
+h3   {font-size: 45px;
+      color: #ffffff;
+      margin-top: 0;
+      padding: 15px;
+    margin-bottom: 0;}
+
+h4   {font-size: 25px;
+      color: #ffffff;
+      margin-top: 0;
+      padding: 15px;
+    margin-bottom: 0;}    
+
+
+p    {line-height: 2.0;
+      color: #ffffff;
+      padding-top: 15px;} 
+
+
+/*img  {float: left;}  
+
+
+/*ヘッダー*/
+header {
+        width: 1200px;
+        padding: 30px;
+        margin-right: auto;
+        margin-left: auto;}
+
+/*記事*/
+div {background-color: rgba(0, 0, 0, 0.5);
+         width: 1200px;
+         margin-right: auto;
+         margin-left: auto;
+      　　-webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+
+.lead{
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  width: 700px;
+}
+
+.topic{
+  margin-top: 20px;
+  padding: 10px 0 40px 10px;
+}
+.about .lead{
+  margin-left: 30px;
+  width: 550px;
+}
+
+/*フッター*/
+footer { /*background-color: rgba(0, 0, 0, 0.5);*/
+         color: #ffffff;
+         width: 1200px;
+         padding: 0px;
+         margin-right: auto;
+         margin-left: auto;}
+
+
+
+

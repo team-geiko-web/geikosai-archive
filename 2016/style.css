@@ -1,0 +1,395 @@
+
+ body{
+ 	margin: 0;
+ }
+#container{
+	padding-top: 30px;
+	margin: 0;
+	background:fixed no-repeat url(images/background.png) #ffffff;
+	background-size: cover;
+}
+
+#nav{
+	position: fixed;
+	padding:10px 2%;
+	float: left;
+	width: 20%;
+}
+#nav li{
+	line-height: 90px;
+	list-style:none;
+}
+#nav .button{
+	padding: 0;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	line-height: 60px;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	color: #ffffff;
+	background-color: #ee4422;
+}
+
+#nav .buttonL{
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	box-shadow: 0 0 3px #ee4422;
+	position: relative;
+	top: -20px;
+}
+#nav .button:hover{
+	background-color: #ffffff;
+	color:  #ee4422;
+	transition: all .3s;
+	box-shadow: 0 0 3px #ee4422;
+}
+#nav .buttonL:hover{
+	background-color: #ee4422;
+	transition: all .3s;
+	box-shadow: none;
+}
+
+#logo{
+	height: 70;
+	position: relative;
+	top:50%;
+	margin-top: -35px;
+}
+#news h2{
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+#ihead{
+	position: fixed;
+	width:100%;
+	top: 0;
+	background: rgba(255,255,255,0.8);
+	padding: 8px 18px;
+	margin-left: -10px;
+	border-bottom: solid 0.5px rgba(150,150,150,0.2);
+}
+#content{
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.main{
+	margin:  -6px 0;
+	padding: 0 20% 0;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom: 50px;
+}
+.twitter-timeline{
+	display: inline-block;
+	outline: ridge 5px #ffffff ;
+	margin: 5px;
+	min-width: 250px;
+	width:45%;
+	height:400px;
+}
+
+#inf1{
+	color: #ffffff;
+	text-shadow:0 0 3px #000022;
+}
+
+#topimg{
+	width: 60%;
+	border-radius: 20px;
+	shadow: 0 0 3px 10px #ffffff;
+}
+#top iframe{
+	display: inline-block;
+	width:80%;
+	min-width: 250px;
+	height: 150px;
+	border: none;
+	outline: ridge 5px #ffffff ;
+	margin: 20px;
+	background: rgba(255,255,255,0.9);
+}
+
+#explain{
+	margin: 20px 10% 50px;
+	padding: 5px 20px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 15px;
+	box-shadow: 0 0 6px 3px #ee4422;
+}
+
+#explain p{
+	text-align: left;
+}
+
+#contact{
+	text-align: center;
+	padding: 10px 50px 30px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.6);
+}
+#kikaku h3{
+	display: inline-block;
+}
+#kikaku .kikakuBox{
+	margin:8px;
+	width:85%;
+	min-width: 250px;
+	min-height: 250px;
+	padding:10px;
+	outline: double 5px #7fffbf;
+	display: inline-block;
+	background-color: rgba(255,255,255,0.7);
+	text-align: left;
+}
+#kikaku .box{
+	margin:8px;
+	width:85%;
+	min-width: 250px;
+	padding:20px;
+	display: inline-block;
+	background-color: rgba(255,255,255,0.7);
+	text-align: left;
+}
+#kikaku #tento{
+	margin-left: 10px;
+	width: 40%;
+	min-width: 120px;
+	float: right;
+}
+#kikaku .fryinfo{
+	float: right;
+}
+#kikaku .frysch{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 50%;
+	margin-left: -40%;
+	width:80%;
+	text-align: center;
+}
+#kikaku .detail{
+	float: left;
+	margin-right: 30px;
+}
+#kikaku .detailNoLo5{
+	margin-top: -10px;
+}
+#kikaku .detailNoLogo{
+	margin-top: -10px;
+	margin-left: 10px;
+}
+
+#kikaku #zenya{
+	outline-color: #7fbfff;
+}
+#kikaku #zenyaAtt{
+	font-size: smaller;
+	display: inline;
+}
+#kikaku .gakusaiImg{
+	vertical-align: middle;
+	display: inline-block;
+	width: 80px;
+	margin-right: 20px;
+}
+#kikaku .gakusaiPhoto{
+	margin-top: 100px;
+	margin-left: 10px;
+	vertical-align: bottom;
+	width: 40%;
+	min-width: 120px;
+	float: right;
+}
+#kikaku .photoLogo{
+	display: inline-block;
+	vertical-align: middle;
+	float:right;
+	width:40%;
+}
+#kikaku .goken{
+	margin: 5px;
+	max-width: 100px;
+	max-height: 100px;
+	width:100px;
+}
+#kikaku .imgInf{
+	width: 85%;
+	margin-top: 10px;
+	background: #ffffff;
+	min-width: 250px;
+}
+#kikaku #map{
+	outline: double 5px #ffadd6;
+}
+#kikaku #schedule{
+	outline: double 5px #adadff;
+}
+#kikaku #attention{
+	margin-right: 10%;
+	text-align: right;
+	color: #ffffff;
+	text-shadow:0 0 10px #000000;
+}
+
+#kikaku h2{
+	background: rgba(238,68,34,0.8);
+	border-top-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	width: 85%;
+	min-width: 250px;
+	height: 35px;
+	padding: 10px;
+	margin: 10px 30px 0px;
+	color: #ffffff;
+	text-shadow: 0 0 3px #ee2244;
+}
+#access{
+	margin: 0;
+}
+#access ul{
+	position: relative;
+	padding: 10px 30px;
+	list-style-type: square;
+	text-align: left;
+}
+
+#access #accessInf{
+	background-color: rgba(255,255,255,0.6);
+	margin: 0 10%;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+ @media screen and (max-width: 799px) { 
+	#container{
+		background:fixed no-repeat url(images/geikochan.png) #eeeeff 100% 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.main{
+		padding: 0 0 200px;
+		margin:0;
+	}
+	#nav{
+		padding: 0;
+		margin: 0;
+		position: static;
+		display: inline;
+		width: 100%;
+		float: left;
+	}
+	#nav li{
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+	#nav .button{
+		width: 80px;
+		height: 80px;
+		line-height: 50px;
+	}
+	#nav .buttonL{
+		top: -50px;
+		width: 85px;
+		height: 85px;
+	}
+	#logo{
+		position: relative;
+		margin: -30px;
+		height: 60px;
+		padding: 0;
+	}
+	#top{
+		width: 100%;
+	}
+	#kikaku{
+		padding-top: 140px;
+		margin: 0;
+	}
+	#access{
+		width: 100%;
+	}
+	#top iframe{
+		margin-top: 15px;
+
+	}
+	#kikaku #attention{
+		margin-left: 20px; 
+		text-align: left;
+		color: #000000;
+		text-shadow: none;
+	}
+	#kikaku .kikakuBox{
+		width: 90%;
+	}
+	#kikaku .box{
+		width: 90%;
+		padding: 10px;
+		border: double 5px #ffff7f;
+	}
+
+	#inf1{
+		color: #000000;
+		text-shadow:none;
+	}
+	.twitter-timeline{
+		display: none;
+	}
+	#kikaku h2{
+		padding: 5px 0;
+		white-space: nowrap;
+		text-align: center;
+		width: 90%;
+	}
+	#kikaku .imgInf{
+		position: relative;
+		width: 90%;
+		min-width: none;
+	}
+	#kikaku .gakusaiPhoto{
+		margin: 0;
+		padding: 0;
+		width: 70%;
+		display: block;
+		float: none;
+		clear: both;
+	}
+	#kikaku .detail{
+		position: relative;
+		width: 100%;
+	}
+	#kikaku #zenyaAtt{
+		display: block;
+	}
+	#kikaku .frysch
+	{
+		padding-left: 50%;
+		margin-left: -48%;
+		width:96%;
+	}
+	#access{
+		padding: 0;
+	}
+	#access h2{
+		font-size: 20px;
+	}
+
+  } 

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+td:nth-child(8){
+		background-color:#B3FFAC;
+		}
+
+#yoyaku{float:right;}
+
+#tenji{
+	float:right;
+	margin:10px;
+}

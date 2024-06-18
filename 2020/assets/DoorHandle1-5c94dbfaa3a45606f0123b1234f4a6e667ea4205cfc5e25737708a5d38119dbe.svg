@@ -1,0 +1,11 @@
+<svg viewBox="0 0 550 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-265 -40)">
+      <rect class="cls-1" x="265" y="40" width="550" height="1000" style="fill: none;"></rect>
+    </clipPath>
+  </defs>
+  <title>取っ手1-2</title>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 24.150821, -246.890008)" style="clip-path: url(#clip-path);"></g>
+  <circle class="cls-4" cx="456.055" cy="500" r="88.945" style="fill: rgb(89, 87, 87); stroke: rgb(247, 248, 248); stroke-miterlimit: 10; stroke-width: 4px;"></circle>
+  <rect class="cls-4" x="-456.02" y="-529.242" width="451.02" height="58.516" rx="2.85" transform="matrix(-1, 0, 0, -1, 0, 0)" style="fill: rgb(89, 87, 87); stroke: rgb(247, 248, 248); stroke-miterlimit: 10; stroke-width: 4px;"></rect>
+</svg>

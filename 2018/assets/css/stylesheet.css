@@ -1,0 +1,1204 @@
+@charset "UTF-8" 
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Hiragino Kaku Gothic ProN", 'TsukuARdGothic-Regular', Meiryo, sans-serif;
+    min-width: 960px;
+    min-height: 1060px;
+    margin: 0;
+    background-image: url(../img/BG4.png);
+    background-repeat: repeat;
+    background-size: 342px;
+    cursor: default;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+s {
+  color: red;
+}
+.eve {
+  margin-top: 50px;
+}
+#redtxt {
+  color: red;
+  text-shadow: none;
+  font-weight: bold;
+}
+.otoiawase a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 15px #333, 0 0 10px #555, 0 0 5px #777;
+    transition: 0.3s;
+}
+.soudansitu a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 15px #333, 0 0 10px #555, 0 0 5px #777;
+    transition: 0.3s;
+}
+.frypan a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 15px #333, 0 0 10px #555, 0 0 5px #777;
+    transition: 0.3s;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.soudansitu a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.frypan a:hover {
+    text-decoration: none;
+    color: #000;
+}
+a:link {
+    color: #fff;
+}
+
+p,
+img,
+ul,
+ol {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.scrolllock {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.tc {
+    color: #fff;
+    text-shadow: 0 0 15px #333, 0 0 10px #555, 0 0 5px #777;
+    line-height: 50px;
+    width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.date {
+    margin: 22px auto 30px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: dateanime 1s 2.5s both;
+}
+
+@keyframes dateanime {
+    0 {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.tc1 {
+    text-shadow: 0 0 15px #d1d1d1, 0 0 10px #e1e1e1, 0 0 5px #fff;
+    color: #333;
+    font-size: 2rem;
+}
+
+.taihu {
+  border: 8px solid #f00;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 30px 0;
+  font-size: 1.4rem;
+  background-color: #fff;
+  min-width: 850px;
+  font-weight: bold;
+}
+
+.taihured {
+  color: red;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 50px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 50px 0 20px;
+    border-bottom: 2px dashed;
+}
+
+.gettingready {
+    text-align: center;
+}
+
+.gettingready p {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.geiko11 {
+    width: 300px;
+}
+
+.nav {
+    z-index: 150;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+    height: 80px;
+    min-width: 960px;
+    right: 100%;
+    transition: 0.3s;
+}
+
+.transpnav {
+    opacity: 0.7;
+    right: 0%;
+}
+
+.nav:hover {
+    opacity: 1;
+}
+
+.navanime {
+    animation: navanime 1s forwards;
+}
+
+@keyframes navanime {
+    0 {
+        right: 100%;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.smalllogobox {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+}
+
+.smalllogo {
+    width: 100px;
+    position: absolute;
+    top: 17px;
+    left: 20%;
+}
+
+.navbtn-tab {
+    position: absolute;
+    margin: 15px 0;
+    right: 2%;
+    list-style: none;
+
+}
+
+.navbtn {
+    margin: 60px 0;
+    float: left;
+    margin: 0;
+}
+
+.navbtn a {
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.navbtn .n1 {
+    padding: 10px 40px;
+}
+
+.navbtn .n4 {
+    padding: 10px 10px;
+}
+
+.navbtn .n6 {
+    padding: 10px 10px;
+}
+
+.navbtn a:hover {
+    background: rgba(255, 255, 255, 0.5);
+
+
+}
+
+.navbtn-tab .navbtn a {
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.navbtn-tab .navbtn:not(:last-child) a {
+    border-right: none;
+}
+
+.navbtn-tab .navbtn:first-child a {
+    border-radius: 5px 0 0 5px;
+}
+
+.navbtn-tab .navbtn:last-child a {
+    border-radius: 0 5px 5px 0;
+    5px 0 0 5px;
+}
+
+.hero {
+    width: 100%;
+    height: 1250px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    z-index: 100;
+    animation: heroanime 2s 0.5s both;
+    min-height: 800px;
+}
+
+@keyframes heroanime {
+    0 {
+        background: rgba(255, 255, 255, 1);
+    }
+    100% {
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.herologobox {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feslogo {
+    width: 600px;
+    opacity: 0;
+}
+
+.herologo {
+    animation: herologo 1s 1s both;
+}
+
+@keyframes herologo {
+    0 {
+        transform: scale(1);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.arrow {
+    width: 0px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 70px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    transform: translateX(-50%) scale(0);
+    left: 50%;
+    top: 90%;
+    z-index: 150;
+}
+
+.arrowanime {
+    animation: arrowanime 1s both;
+}
+
+@keyframes arrowanime {
+    0 {
+        top: 90%;
+    }
+    5% {
+        top: 90%;
+    }
+    90% {
+        transform: translateX(-50%) scale(1);
+    }
+    100% {
+        top: 100%;
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+.seisai {
+    margin: 0;
+    position: relative;
+    height: 950px;
+}
+
+.BGstar {
+    position: absolute;
+    width: 100%;
+    display: block;
+    filter: grayscale(70%);
+    max-height: 950px;
+
+}
+
+.theme {
+    width: 750px;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    font-size: 1.6rem;
+    line-height: 50px;
+    margin: 0 auto;
+    transform: translateY(100px);
+
+}
+
+.theme img {
+    width: 100px;
+    transform: scale(1);
+    opacity: 0;
+    margin: 15px 0 10px; 
+}
+.theme1 {
+    padding-top: 130px;
+}
+.hosianime {
+    animation: hosianime 1s 0.5s ease both;
+}
+
+@keyframes hosianime {
+    0 {
+        transform: scale(1);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.09);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bigfont {
+    font-size: 2.2rem;
+}
+
+.txtanime {
+    animation: txtanime 1s both;
+}
+
+@keyframes txtanime {
+    0 {
+
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
+
+.hosi {
+    text-shadow: 0 0 15px #fff35f, 0 0 10px #fff98a, 0 0 5px #fff;
+}
+
+.seisaianime {
+    animation: seisaianime 1s 3s both;
+}
+
+@keyframes seisaianime {
+    0 {
+        text-shadow: 0 0 15px #fff35f, 0 0 10px #fff98a, 0 0 5px #fff;
+    }
+    50% {
+        text-shadow: 0 0 25px #ffff00, 0 0 20px #ffff33, 0 0 15px #ffff55;
+    }
+    100% {
+        text-shadow: 0 0 15px #fff35f, 0 0 10px #fff98a, 0 0 5px #fff;
+    }
+}
+
+.geikochan {
+    width: 16%;
+    min-width: 200px;
+    height: auto;
+    position: absolute;
+    transform: translateY(-50%) rotate(45deg);
+    top: 32%;
+    left: 77%;
+    transform-origin: 60% bottom;
+    animation: geikochananime 1s 2s both;
+    opacity: 0;
+}
+
+@keyframes geikochananime {
+    0 {
+        transform: translateY(-50%) rotate(45deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-50%) rotate(0);
+        opacity: 1;
+    }
+}
+#news{
+     background-color: #fff;
+     box-shadow:0px 0px 5px 3px #fff inset;
+     border:2px solid #333;
+     width:80%;
+     height:500px;
+	overflow:auto;
+      -webkit-overflow-scrolling: touch;
+      display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+  
+}
+.kikaku {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    height: 1950px;
+    background-color: rgba(244, 196, 164, 0.8);
+}
+
+.kikakuAll {
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.kikakuAll img {
+    width: 800px;
+}
+.niken {
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sanken {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.goken {
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.panf {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.himaturi {
+    width: 120px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cba {
+    width: 110px;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+.zenya {
+    width: 115px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btnkikaku {
+    width: 180px;
+    background-color: #fff;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    display: block;
+    border: 2px solid #555;
+    transform: r
+}
+
+
+.btnanime:hover {
+    animation: btnanime .5s both;
+}
+
+@keyframes btnanime {
+    0 {
+        transform: rotate(0) scale(1);
+
+    }
+    50% {
+        transform: rotate(30deg) scale(1.1);
+    }
+    80% {
+        transform: rotate(-30deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(0) scale(1.1);
+        background-color: rgba(126, 126, 126, 0.8);
+        border-color: #fff;
+    }
+}
+
+.btnanime2 {
+    animation: btnanime2 1s ease both;
+}
+
+@keyframes btnanime2 {
+    0 {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(100%);
+    }
+}
+
+.toplogobox {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottomlogobox {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.tka {
+    opacity: 0;
+    transform: translate(30px, -50px);
+    animation: tka 1s ease both;
+}
+
+@keyframes tka {
+    0 {
+        opacity: 0;
+        transform: translate(30px, -50px) scale(1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translate(0) scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0) scale(1);
+    }
+}
+
+.bka {
+    opacity: 0;
+    transform: translate(-30px, 50px);
+    animation: bka 1s ease both;
+}
+
+@keyframes bka {
+    0 {
+        opacity: 0;
+        transform: translate(-30px, 50px) scale(1);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translate(0) scale(1.08);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0) scale(1);
+    }
+}
+
+.kt {
+    opacity: 0;
+    animation: kt 1s 1s both;
+}
+
+@keyframes kt {
+    0 {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logobox {
+    width: 25%;
+    height: 180px;
+    float: left;
+    opacity: 0;
+}
+
+.blogobox {
+    width: 33.33%;
+    height: 360px;
+    float: left;
+    opacity: 0;
+}
+
+.logoboxsize {
+    animation: lbsize 0.8s ease both;
+    opacity: 1;
+}
+
+@keyframes lbsize {
+    0 {
+
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(180px);
+    }
+}
+
+.kikakutxt1 {
+
+    width: 100%;
+    margin: 40px auto 0;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.kikakutxt2 {
+    width: 100%;
+    margin: 0 auto 0;
+    font-size: 1rem;
+    line-height: 30px;
+    opacity: 0;
+}
+
+.topkikaku {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.topkikakutxt {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+
+.topkikakutxt2 {
+    padding: 50px 0 50px;
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+
+.mBG {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 400px;
+    opacity: 0.2;
+}
+
+
+
+.photobox {
+    text-align: center;
+    height: 200
+}
+
+.photo {
+    width: 70%;
+    display: inline-block;
+    z-index: 250;
+}
+.photo2 {
+    width: 90%;
+    display: inline-block;
+    z-index: 250;
+}
+.photo3 {
+    width: 95%;
+    display: inline-block;
+    z-index: 250;
+}
+}
+
+.phi {
+    width: 200px;
+}
+
+#mdOverlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 197;
+    background: #000;
+    display: none;
+}
+
+#mdWindow {
+    margin-top: 3%;
+    margin-left: -40%;
+    top: 0%;
+    left: 50%;
+    width: 80%;
+    min-width: 350px;
+    height: 90%;
+    position: fixed;
+    z-index: 198;
+    background: #fff;
+    display: none;
+    border-radius: 10px;
+    border: 5px solid #222;
+}
+
+#mdWindow > .mdClose {
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    background: #757575;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 199;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0 #000;
+}
+
+.mdCloseanime {
+    animation: mdcloseanime 0.7s both;
+}
+
+@keyframes mdcloseanime {
+    0 {
+        transform: scale(1) rotate(0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.mhide {
+    display: none;
+}
+
+#modalInclude {
+    display: none;
+}
+
+#contWrap {
+    margin: 10px auto;
+    padding: 0 20px;
+    width: 100%;
+    height: 97%;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#contWrap h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #333 1px dotted;
+    color: #333;
+}
+
+#contWrap p {
+    padding-bottom: 2em;
+    font-size: 1em;
+    text-align: center;
+    padding: 0 20px;
+    text-shadow: 0 0 15px #d1d1d1, 0 0 10px #e1e1e1, 0 0 5px #fff;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.event {
+    height: 3800px;
+    width: 100%;
+    background-color: rgba(100, 130, 236, .8);
+}
+
+.eventtxtbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.eventtxtbox h2 {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+
+.eventtxt {
+    font-size: 1.6rem;
+}
+.timesc {
+  text-align: center;
+}
+.timesc img{
+  width: 800px;
+}
+
+.ipk {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin: 10px 4%;
+    background-color: #ffffee;
+    border-radius: 15px;
+    border: 3px solid #333;
+    position: relative;
+    text-decoration: none;
+}
+.ipk2 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    background-color: #ffffee;
+    border-radius: 15px;
+    border: 3px solid #333;
+    position: relative;
+    text-decoration: none;
+}
+.ipkbox {
+    width: 100%;
+}
+.pipk{
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    text-shadow: none;
+    margin: 27px auto;
+}
+.geikoipk1 {
+    width: 200px;
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+}
+.geikoipk2 {
+    width: 180px;
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+}
+.geikoipk3 {
+    width: 70px;
+    position: absolute;
+    transform: translate(-50%);
+    top: 25%;
+    left: 80%;
+}
+.geikoipk4 {
+    width: 65px;
+    position: absolute;
+    transform: translate(-50%);
+    top: 20%;
+    left: 80%;
+}
+.guest {
+    height: 2700px;
+    width: 100%;
+    background-color: rgba(140, 172, 172, 0.8);
+    position: relative;
+}
+
+.gimgbox {
+    text-align: center;
+    position: relative;
+}
+
+.gimg {
+    margin: 0 40px;
+}
+
+.gimganime {
+    animation: gimganime 0.5s 1s both;
+}
+
+@keyframes gimganime {
+    0 {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.guesttxtbox h2 {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+
+.guesttxtbox h3 {
+    font-size: 2rem;
+    padding: 60px 0 30px;
+}
+
+.guesttxtbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.guesttxt {
+    padding: 100px 0;
+    font-size: 1.6rem;
+}
+
+.no {
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.geikobatu {
+
+    width: 120px;
+}
+
+.mapbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.mapbox h3 {
+    font-size: 2rem;
+    padding: 60px 0 30px;
+
+}
+
+.mapsize {
+    width: 100%;
+    text-align: center;
+}
+
+.mapsize a {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.map {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+.mapanime {
+    animation: mapanime 0.5s both;
+}
+
+@keyframes mapanime {
+    0 {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.maptxt {
+    padding: 30px 0;
+    font-size: 1.6rem;
+}
+
+.kyousan {
+    height: 850px;
+    width: 100%;
+    background-color: rgba(236, 148, 180, 0.8);
+}
+
+.kyousantxtbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.kyousantxtbox h2 {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+.soudan {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(168, 153, 205, 0.8);
+}
+
+.soudantxtbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.soudantxtbox h2 {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+.soudansitu {
+    font-size: 1.6rem;
+    position: relative;
+}
+.soudansitu img {
+    position: absolute;
+    width: 180px;
+    transform: translate(-50%) rotate(-20deg);
+    top: 55%;
+    left: -10%;
+}
+
+.otoiawasetxtbox {
+    margin: 0 auto;
+    width: 80%;
+    transform: translateY(100px);
+}
+
+.otoiawase {
+    height: 1400px;
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.8);
+}
+
+.otoiawasetxtbox h2 {
+    padding: 100px 0 0;
+    font-size: 2.5rem;
+}
+
+.otoiawasetxtbox a {
+    transition: 0.5s;
+}
+
+.otoiawasetxtbox a:hover {
+    text-shadow: 0 0 15px #d1d1d1, 0 0 10px #e1e1e1, 0 0 5px #fff;
+    color: #333;
+}
+
+.otoiawasetxt {
+    padding: 100px 0;
+    font-size: 1.6rem;
+}
+
+.mailtxt {
+    padding: 20px 0 30px;
+    margin: 0 auto;
+}
+#mail {
+  text-shadow: none;
+  font-weight: bold;
+  color: red;
+}
+
+}
+.twittertxt {
+    padding: 20px 0 30px;
+    margin: 0 auto;
+}
+
+.kyushuuni {
+    text-align: center;
+}
+
+.feslink {
+    text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+}
+
+.footerbox {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 250px;
+}
+
+.footerbox p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+}
+
+.gokenlogobox {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.gokenlogo {
+    width: 40px;
+    transform: translateY(13px);
+}
+
+.tc1 .tamayura{
+    color:#ff0000;
+}
+
+.tamayura a{
+    color:#ff0000;
+}
+

@@ -1,0 +1,86 @@
+body           {font-family: 'メイリオ',
+               'Hiragino Kaku Gothic Pro',
+               sans-serif;
+               background-image: url(ロゴWeb.png);
+               margin: 0}
+
+h1             {font-size: 38px;
+               margin-top: 0;
+               text-align: center;
+               padding: 20px
+               }
+
+h2             {text-align: center;
+               color: #ff3313}
+
+h3             {text-align: center;} 
+
+p              {line-height: 1.5;
+               padding-right: 50px;
+               text-align: center;}
+
+p.comment      {line-height: 1.5;
+               padding-right: 50px;
+               text-align: left;}
+
+a              {color: #000000;
+               text-decoration: none;}
+
+a:hover        {color: #eeb0b0;}
+
+article        {background-color: #fafafa;
+	             width: 900px;
+               border: solid 1px #aaaaaa;
+               margin-left: auto;
+               margin-right: auto;
+               border-radius: 10px}
+
+/*　へっだー　*/
+header         {margin-right: auto;
+               margin-left: auto;
+               width: 900px}
+
+header h1      {font-size: 38px;
+               margin-top: 0;
+               text-align: center;}
+/*　フッター　*/
+footer         {width: 900px;
+               margin-left: auto;
+               margin-right: auto;
+               color: #aaaaaa;
+               text-align: center;}
+
+/*　タイムテーブル　*/
+table, th, td    {border:solid 3px #aaaaaa;}
+
+table            {width: 800px;
+	               border-collapse: collapse;
+                 margin-left: auto;
+                 margin-right: auto;
+                 margin-top: 20px;
+                 margin-bottom: 50px}
+
+th, td           {padding: 10px 20px 10px 20px;
+                 }
+
+th               {width: 450px;
+                 background-color: #ffcb63;
+                 text-align: center;}
+
+td               {width: 450px;
+                 background-color: #ffedce;
+                 text-align: center;}
+
+caption          {font-size: 20px}
+
+img              {text-align: center;
+                 margin-top: 7px;
+                 margin-left: 1px}
+
+figure.human img          {float: left;
+                          padding: 20px}
+
+/*#jo img          {width: 900px;
+                 text-align: center;
+                 margin-left: auto;
+                 margin-right: auto}

@@ -1,0 +1,30 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: black; SCROLLBAR-HIGHLIGHT-COLOR: white; SCROLLBAR-SHADOW-COLOR: white; SCROLLBAR-3DLIGHT-COLOR: black; SCROLLBAR-ARROW-COLOR: white; SCROLLBAR-TRACK-COLOR: black; SCROLLBAR-DARKSHADOW-COLOR: black
+}
+BODY {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 18px; FONT-FAMILY: 'MS UI Gothic'
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 18px; FONT-FAMILY: 'MS UI Gothic'
+}
+BR {
+	LETTER-SPACING: normal
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: gold
+}
+A:visited {
+	COLOR: darkred; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: darkred
+}
+A:hover {
+	COLOR: orangered
+}
+BODY {
+	BACKGROUND-COLOR: black
+}

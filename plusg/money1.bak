@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META name="IBM:HPB-Input-Mode" content="mode/flm; pagewidth=750; pageheight=900">
+<SCRIPT language=JavaScript><!--
+function subWin1(){
+window.open("sousyoku.htm","window2","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=321,height=500,left=20,top=20");
+}
+function subWin2(){
+window.open("sd.htm","window3","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=320,height=500,left=20,top=20");
+}
+function subWin3(){
+window.open("eizou.htm","window4","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=321,height=500,left=20,top=20");
+}
+function subWin4(){
+window.open("kouhou.htm","window5","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=494,height=697,left=20,top=0");
+}
+function subWin5(){
+window.open("tent.htm","window6","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=512,height=697,left=20,top=0");
+}
+function subWin6(){
+window.open("himaturi.htm","window7","resizable=no,menubar=no,directories=no,status=no,location=no,scrollbars=no,toolbar=no,width=513,height=697,left=20,top=0");
+}
+
+//-->
+</SCRIPT>
+<TITLE>決算報告</TITLE>
+</HEAD>
+<BODY>
+<DIV style="top : 61px;left : 50px;
+  position : absolute;
+  z-index : 1;
+" id="Layer1">
+<DIV>
+<TABLE border="1" width="400" height="205">
+  <TBODY>
+    <TR>
+      <TD align="center" width="143"></TD>
+      <TD align="center" width="155">支出</TD>
+    </TR>
+    <TR>
+      <TD valign="middle" align="center" width="143">装飾班</TD>
+      <TD align="center" width="155"><A href="javascript:subWin1();">207,616</A></TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">SD班</TD>
+      <TD align="center" width="155"><A href="javascript:subWin2();">260,290</A></TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">装飾班・SD班輸送費</TD>
+      <TD align="center" width="155">81,903</TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">合計</TD>
+      <TD align="center" width="155">549,809</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</DIV>
+<DIV style="top : 303px;left : 50px;
+  position : absolute;
+  z-index : 2;
+" id="Layer2">
+<DIV>
+<TABLE border="1" width="400" height="205">
+  <TBODY>
+    <TR>
+      <TD align="center" width="143"></TD>
+      <TD align="center" width="155">支出</TD>
+    </TR>
+    <TR>
+      <TD valign="middle" align="center" width="143">映像班</TD>
+      <TD align="center" width="155"><A href="javascript:subWin3();">30,857</A></TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">広報班</TD>
+      <TD align="center" width="155"><A href="javascript:subWin4();">46,457</A></TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">テント班</TD>
+      <TD align="center" width="155"><A href="javascript:subWin5();">72,750</A></TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">雑費</TD>
+      <TD align="center" width="155"><A href="javascript:subWin6();">3,047</A></TD>
+    </TR>
+    <TR>
+      <TD align="center">火祭り</TD>
+      <TD align="center"><A href="javascript:subWin6();">2,520</A></TD>
+    </TR>
+    <TR>
+      <TD align="center">合計</TD>
+      <TD align="center">155,631</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</DIV>
+<DIV style="top : 524px;left : 50px;
+  position : absolute;
+  z-index : 3;
+" id="Layer3">
+<DIV>
+<TABLE border="1" width="400" height="198">
+  <TBODY>
+    <TR>
+      <TD align="center" width="143"></TD>
+      <TD align="center" width="155">収入</TD>
+    </TR>
+    <TR>
+      <TD valign="middle" align="center" width="143">芸工大学祭企画内カンパ</TD>
+      <TD align="center" width="155">514,000</TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">テント売上金</TD>
+      <TD align="center" width="155">107,835</TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">合計</TD>
+      <TD align="center" width="155">621,835</TD>
+    </TR>
+    <TR>
+      <TD align="center" width="143">合計</TD>
+      <TD align="center" width="155">549,809</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</DIV>
+<DIV style="top : 18px;left : 60px;
+  position : absolute;
+  z-index : 4;
+" id="Layer4">
+<P>◆０研決算報告</P>
+</DIV>
+<DIV style="top : 135px;left : 461px;
+  position : absolute;
+  z-index : 5;
+" id="Layer5">
+<P>左記２班の支出につきましては、<BR>
+企画当初から九大祭予算に組み<BR>
+込んでいただけることになっており、<BR>
+今現在交渉の段階です。よって、<BR>
+九大からもらえるお金が支出に満た<BR>
+ない場合はカンパ金から出すことを<BR>
+予定していますのでご了承ください。</P>
+</DIV>
+<DIV style="top : 318px;left : 471px;
+  position : absolute;
+  z-index : 6;
+" id="Layer6"></DIV>
+<DIV style="top : 677px;left : 463px;
+  position : absolute;
+  z-index : 7;
+  width : 258px;
+  height : 39px;
+" id="Layer7">
+<P>（注)カンパ集金が完了していない<BR>
+ため、確定金額ではありません。</P>
+</DIV>
+<DIV style="top : 742px;left : 50px;
+  position : absolute;
+  z-index : 8;
+" id="Layer8">
+<DIV>
+<TABLE border="1" width="399" height="26">
+  <TBODY>
+    <TR>
+      <TD width="182" align="center">収入－支出（＊）</TD>
+      <TD width="201" align="center">466,204</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</DIV>
+<DIV style="top : 788px;left : 50px;
+  position : absolute;
+  z-index : 9;
+" id="Layer9">
+<P>この収入－支出（＊）を来年度の学園祭に繰り越す予定です。</P>
+</DIV>
+<DIV style="top : 828px;left : 55px;
+  position : absolute;
+  z-index : 10;
+" id="Layer10">
+<P>なおこの決算報告は、２００３年１２月８日付けの中間報告という形をとらせていただきます。<BR>
+随時WEB上にて更新することにより変更をお伝えする予定です。<BR>
+また最終決算報告も別途お渡しする予定です。</P>
+</DIV>
+</BODY>
+</HTML>

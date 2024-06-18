@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="#internalStyle" type="text/css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ウェブサーバの統計 HPUSERS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="generator" content="analog 6.0/Unix" />
+<style type="text/css" id="internalStyle">
+h2 {
+	background-color: #A0C0F0;
+	width: 98%;
+	padding: 3px 6px;
+}
+table {
+	text-align: right;
+	margin-left: 30px;
+	background-color: #D0E0F0;
+	border-collapse: collapse;
+}
+th {
+	border-bottom: 1px solid #404050;
+	border-right: 1px dotted #606070;
+	border-top: none;
+	border-left: none;
+	padding: 0px 5px 1px 5px;
+	font-weight: bold;
+	background-color: #A0C0F0;
+}
+td {
+	padding: 0px 5px 1px 5px;
+	border-right: 1px dotted #606070;
+	border-left: none;
+	border-bottom: none;
+	border-top:none;
+}
+td.x {
+	font-family: monospace;
+	white-space: pre;
+}
+.xl {
+	text-align: left;
+	border-right: none;
+}
+.xr {
+	text-align: right;
+	border-right: none;
+}
+.bar {
+	text-align: left;
+	border-right: none;
+}
+tr.sub {background-color: #C0C0FF;
+	font-style: italic;
+}
+.repdesc {
+	font-style: italic;
+}
+.repspan {
+	font-style: italic;
+}
+.goto {
+	font-size: small;
+}
+.gensumtitle {
+	font-weight: bold;
+}
+.gototitle {
+	font-weight: bold;
+}
+.runtimetitle {
+	font-weight: bold;
+}
+img {
+	border-style: none;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+a:link:hover {
+	text-decoration: underline;
+}
+a:visited:hover {
+	text-decoration: underline;
+}
+a:link:active {
+	color: red;
+	text-decoration: underline;
+}
+a:visited:active {
+	color: red;
+	text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="header"><h1><a name="Top" id="Top" href="http://www.analog.cx/"><img src="images/analogo.png" alt="" /></a> ウェブサーバの統計 HPUSERS</h1>
+
+<p class="analysisspan">統計開始日時 : 2008年 6月12日(木) 04時46分.
+<br />解析対象期間 : 2008年 6月11日(水) 00時36分 ～ 2008年 6月11日(水) 23時10分 (0.94 日).</p>
+</div>
+<div class="gensum"><h2><a name="gensum" id="gensum">全体の概要</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | 全体の概要 | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、全体の統計を表します。</p>
+<p class="gensumlines">
+<span class="gensumtitle">リクエスト成功件数:</span> 256
+<br /><span class="gensumtitle">上記の日別平均:</span> 271
+<br /><span class="gensumtitle">ページリクエスト成功件数:</span> 98
+<br /><span class="gensumtitle">上記の日別平均:</span> 103
+<br /><span class="gensumtitle">リクエスト不成功件数:</span> 24
+<br /><span class="gensumtitle">リクエストリダイレクション件数:</span> 1
+<br /><span class="gensumtitle">異なるリクエストファイル数:</span> 56
+<br /><span class="gensumtitle">異なるサービスホスト数:</span> 37
+<br /><span class="gensumtitle">データ転送量:</span> 8.44 メガバイト
+<br /><span class="gensumtitle">上記の日別平均:</span> 8.97 メガバイト
+</p>
+</div><div class="hoursum"><h2><a name="hoursum" id="hoursum">時間別集計</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | 時間別集計 | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、全ての日の時間別総和の統計を表します。</p>
+<p class="eachunit">1単位 (<img src="images/barb1.png" alt="+" />) は 1 ページリクエスト件数.</p>
+<table>
+<thead><tr><th class="x">時間</th><th class="R">リクエスト件数</th><th class="P">ページ数</th><th class="bar">&nbsp;</th></tr></thead>
+<tbody><tr><td class="x"> 0時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x"> 1時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x"> 2時</td><td class="R">38</td><td class="P">12</td><td class="bar"><img src="images/barb8.png" alt="++++++++++++" /><img src="images/barb4.png" alt="" /></td></tr>
+<tr><td class="x"> 3時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x"> 4時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x"> 5時</td><td class="R">3</td><td class="P">3</td><td class="bar"><img src="images/barb2.png" alt="+++" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x"> 6時</td><td class="R">7</td><td class="P">7</td><td class="bar"><img src="images/barb4.png" alt="+++++++" /><img src="images/barb2.png" alt="" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x"> 7時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x"> 8時</td><td class="R">1</td><td class="P">1</td><td class="bar"><img src="images/barb1.png" alt="+" /></td></tr>
+<tr><td class="x"> 9時</td><td class="R">2</td><td class="P">2</td><td class="bar"><img src="images/barb2.png" alt="++" /></td></tr>
+<tr><td class="x">10時</td><td class="R">2</td><td class="P">1</td><td class="bar"><img src="images/barb1.png" alt="+" /></td></tr>
+<tr><td class="x">11時</td><td class="R">5</td><td class="P">5</td><td class="bar"><img src="images/barb4.png" alt="+++++" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x">12時</td><td class="R">11</td><td class="P">3</td><td class="bar"><img src="images/barb2.png" alt="+++" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x">13時</td><td class="R">3</td><td class="P">2</td><td class="bar"><img src="images/barb2.png" alt="++" /></td></tr>
+<tr><td class="x">14時</td><td class="R">25</td><td class="P">9</td><td class="bar"><img src="images/barb8.png" alt="+++++++++" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x">15時</td><td class="R">38</td><td class="P">12</td><td class="bar"><img src="images/barb8.png" alt="++++++++++++" /><img src="images/barb4.png" alt="" /></td></tr>
+<tr><td class="x">16時</td><td class="R">27</td><td class="P">7</td><td class="bar"><img src="images/barb4.png" alt="+++++++" /><img src="images/barb2.png" alt="" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x">17時</td><td class="R">0</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x">18時</td><td class="R">4</td><td class="P">4</td><td class="bar"><img src="images/barb4.png" alt="++++" /></td></tr>
+<tr><td class="x">19時</td><td class="R">1</td><td class="P">0</td><td class="bar"></td></tr>
+<tr><td class="x">20時</td><td class="R">1</td><td class="P">1</td><td class="bar"><img src="images/barb1.png" alt="+" /></td></tr>
+<tr><td class="x">21時</td><td class="R">47</td><td class="P">15</td><td class="bar"><img src="images/barb8.png" alt="+++++++++++++++" /><img src="images/barb4.png" alt="" /><img src="images/barb2.png" alt="" /><img src="images/barb1.png" alt="" /></td></tr>
+<tr><td class="x">22時</td><td class="R">19</td><td class="P">8</td><td class="bar"><img src="images/barb8.png" alt="++++++++" /></td></tr>
+<tr><td class="x">23時</td><td class="R">22</td><td class="P">6</td><td class="bar"><img src="images/barb4.png" alt="++++++" /><img src="images/barb2.png" alt="" /></td></tr>
+</tbody></table>
+</div><div class="dom"><h2><a name="dom" id="dom">ドメインレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | ドメインレポート | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルをリクエストしたコンピュータの国別統計を表します。</p>
+<p class="whatinc">
+ドメイン の表 :, ソート順は 通信量.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="xl">ドメイン</th></tr></thead>
+<tbody><tr><td class="R">205</td><td class="b">76.12%</td><td class="xl">.jp (日本)</td></tr>
+<tr><td class="R">12</td><td class="b">16.50%</td><td class="xl">.com (商業組織)</td></tr>
+<tr><td class="R">18</td><td class="b"> 6.96%</td><td class="xl">[未解決IPアドレス]</td></tr>
+<tr><td class="R">18</td><td class="b"> 0.34%</td><td class="xl">.net (ネットワーク)</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.09%</td><td class="xl">[未知ドメイン名]</td></tr>
+</tbody></table>
+</div><div class="org"><h2><a name="org" id="org">組織別レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | 組織別レポート | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルをリクエストをしたコンピュータのドメインの統計を表します。</p>
+<p class="whatinc">
+上位 20 組織 の表 : 基準は リクエスト数, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="xl">組織</th></tr></thead>
+<tbody><tr><td class="R">42</td><td class="b"> 7.57%</td><td class="xl">canvas.ne.jp</td></tr>
+<tr><td class="R">34</td><td class="b">11.14%</td><td class="xl">hakata.bbiq.jp</td></tr>
+<tr><td class="R">26</td><td class="b">13.96%</td><td class="xl">kyushu-u.ac.jp</td></tr>
+<tr><td class="R">26</td><td class="b"> 7.56%</td><td class="xl">taisei.co.jp</td></tr>
+<tr><td class="R">17</td><td class="b"> 0.34%</td><td class="xl">yahoo.net</td></tr>
+<tr><td class="R">13</td><td class="b"> 1.73%</td><td class="xl">ocn.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.78%</td><td class="xl">asahi-net.or.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.78%</td><td class="xl">nttpc.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xl">bunbun.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xl">megaegg.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xl">ucom.ne.jp</td></tr>
+<tr><td class="R">8</td><td class="b"> 0.29%</td><td class="xl">ohta.j-cnet.jp</td></tr>
+<tr><td class="R">8</td><td class="b"> 6.74%</td><td class="xl">66.249</td></tr>
+<tr><td class="R">7</td><td class="b"> 0.18%</td><td class="xl">150.70</td></tr>
+<tr><td class="R">4</td><td class="b">&nbsp;</td><td class="xl">msn.com</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.09%</td><td class="xl">[未知ドメイン名]</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.04%</td><td class="xl">202.179</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.04%</td><td class="xl">google.com</td></tr>
+<tr><td class="R">3</td><td class="b">16.45%</td><td class="xl">googlebot.com</td></tr>
+<tr><td class="R">2</td><td class="b"> 0.01%</td><td class="xl">rr.com</td></tr>
+<tr><td class="R">2</td><td class="b"> 0.03%</td><td class="xl">[その他: 2 組織]</td></tr>
+</tbody></table>
+</div><div class="host"><h2><a name="host" id="host">ホストレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | ホストレポート | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルをリクエストしたコンピュータの統計を表します。</p>
+<p class="whatinc">
+ホスト の表 :, ソート順はアルファベット.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="xl">ホスト</th></tr></thead>
+<tbody><tr><td class="R">8</td><td class="b"> 6.74%</td><td class="xl">66.249.84.11</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.03%</td><td class="xl">150.70.84.45</td></tr>
+<tr><td class="R">6</td><td class="b"> 0.15%</td><td class="xl">150.70.84.50</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.04%</td><td class="xl">202.179.180.45</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.04%</td><td class="xr">po-out-f136.google.com</td></tr>
+<tr><td class="R">3</td><td class="b">16.45%</td><td class="xr">crawl-66-249-70-55.googlebot.com</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">msnbot-65-55-210-202.search.msn.com</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">msnbot-65-55-210-204.search.msn.com</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">msnbot-65-55-210-213.search.msn.com</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">msnbot-65-55-210-214.search.msn.com</td></tr>
+<tr><td class="R">2</td><td class="b"> 0.01%</td><td class="xr">rrcs-67-78-163-153.se.biz.rr.com</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.09%</td><td class="xr">bl1sch4084620.phx.gbl</td></tr>
+<tr><td class="R">13</td><td class="b"> 6.97%</td><td class="xr">kuma.aics.design.kyushu-u.ac.jp</td></tr>
+<tr><td class="R">13</td><td class="b"> 6.99%</td><td class="xr">vie.vcd.design.kyushu-u.ac.jp</td></tr>
+<tr><td class="R">34</td><td class="b">11.14%</td><td class="xr">ppps1727.hakata.bbiq.jp</td></tr>
+<tr><td class="R">12</td><td class="b"> 6.53%</td><td class="xr">c-center.taisei.co.jp</td></tr>
+<tr><td class="R">14</td><td class="b"> 1.02%</td><td class="xr">c-left.taisei.co.jp</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.03%</td><td class="xr">m01.as.ogk.yahoo.co.jp</td></tr>
+<tr><td class="R">8</td><td class="b"> 0.29%</td><td class="xr">118-86-24-218.ohta.j-cnet.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xr">gate221.bunbun.ne.jp</td></tr>
+<tr><td class="R">41</td><td class="b"> 7.48%</td><td class="xr">202-71-92-110.ap-w01.canvas.ne.jp</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.09%</td><td class="xr">202-71-92-35.ap-w01.canvas.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xr">28.94.168.203.megaegg.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.78%</td><td class="xr">pl474.nas936.p-fukuoka.nttpc.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 1.63%</td><td class="xr">p1010-dng03tenjmi.fukuoka.ocn.ne.jp</td></tr>
+<tr><td class="R">2</td><td class="b"> 0.10%</td><td class="xr">p7162-ipbf08yosida.nagano.ocn.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.76%</td><td class="xr">58x4x167x60.ap58.ftth.ucom.ne.jp</td></tr>
+<tr><td class="R">11</td><td class="b"> 6.78%</td><td class="xr">j122151.ppp.asahi-net.or.jp</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">118-168-65-169.dynamic.hinet.net</td></tr>
+<tr><td class="R">8</td><td class="b"> 0.23%</td><td class="xr">llf520022.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">rz311211.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.02%</td><td class="xr">rz311260.crawl.yahoo.net</td></tr>
+<tr><td class="R">3</td><td class="b"> 0.04%</td><td class="xr">rz311273.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">rz311278.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.01%</td><td class="xr">rz311296.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.02%</td><td class="xr">rz311382.crawl.yahoo.net</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xr">rz311393.crawl.yahoo.net</td></tr>
+</tbody></table>
+</div><div class="ref"><h2><a name="ref" id="ref">参照元レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | 参照元レポート | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、(リンク、あるいはこのサイトの画像を含むページを辿ってきた) 参照元の統計を表します。</p>
+<p class="whatinc">
+参照元URL の表 :, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="xl">URL</th></tr></thead>
+<tbody><tr><td class="R">4</td><td class="xl"><a href="http://www.design.kyushu-u.ac.jp/kyushu-u/watch/festival">http://www.design.kyushu-u.ac.jp/kyushu-u/watch/festival</a></td></tr>
+<tr><td class="R">3</td><td class="xl"><a href="http://search.yahoo.co.jp/search">http://search.yahoo.co.jp/search</a></td></tr>
+<tr><td class="R">2</td><td class="xl"><a href="http://www.kyushu-id.ac.jp/kyushu-u/watch/festival">http://www.kyushu-id.ac.jp/kyushu-u/watch/festival</a></td></tr>
+<tr><td class="R">1</td><td class="xl"><a href="http://mixi.jp/view_bbs.pl">http://mixi.jp/view_bbs.pl</a></td></tr>
+<tr><td class="R">1</td><td class="xl"><a href="http://cache.yahoofs.jp/search/cache">http://cache.yahoofs.jp/search/cache</a></td></tr>
+<tr><td class="R">1</td><td class="xl"><a href="http://www.google.co.jp/search">http://www.google.co.jp/search</a></td></tr>
+<tr><td class="R">1</td><td class="xl"><a href="http://images.google.co.jp/imgres">http://images.google.co.jp/imgres</a></td></tr>
+<tr><td class="R">1</td><td class="xl"><a href="http://www.google.com/search">http://www.google.com/search</a></td></tr>
+</tbody></table>
+</div><div class="refsite"><h2><a name="refsite" id="refsite">参照元サイトレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | 参照元サイトレポート | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、参照元のサーバの統計を表します。</p>
+<p class="whatinc">
+参照元サイト の表 :, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="xl">サイト</th></tr></thead>
+<tbody><tr><td class="R">4</td><td class="xl">http://www.design.kyushu-u.ac.jp/</td></tr>
+<tr><td class="R">3</td><td class="xl">http://search.yahoo.co.jp/</td></tr>
+<tr><td class="R">2</td><td class="xl">http://www.kyushu-id.ac.jp/</td></tr>
+<tr><td class="R">1</td><td class="xl">http://www.google.co.jp/</td></tr>
+<tr><td class="R">1</td><td class="xl">http://images.google.co.jp/</td></tr>
+<tr><td class="R">1</td><td class="xl">http://cache.yahoofs.jp/</td></tr>
+<tr><td class="R">1</td><td class="xl">http://www.google.com/</td></tr>
+<tr><td class="R">1</td><td class="xl">http://mixi.jp/</td></tr>
+</tbody></table>
+</div><div class="searchq"><h2><a name="searchq" id="searchq">検索語句レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | 検索語句レポート | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ユーザがこのサイトを発見するのに、検索エンジンで使用した検索語句の統計を表します。</p>
+<p class="whatinc">
+検索語句 の表 :, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="xl">検索語</th></tr></thead>
+<tbody><tr><td class="R">1</td><td class="xl">噴水</td></tr>
+<tr><td class="R">1</td><td class="xl">芸工祭</td></tr>
+<tr><td class="R">1</td><td class="xl">九州大学大橋キャンパス</td></tr>
+<tr><td class="R">1</td><td class="xl">九州大学 芸工</td></tr>
+<tr><td class="R">1</td><td class="xl">九州大学 大橋キャンパス</td></tr>
+</tbody></table>
+</div><div class="searchw"><h2><a name="searchw" id="searchw">検索語レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | 検索語レポート | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ユーザがこのサイトを発見するのに、検索エンジンで使用した単語の統計を表します。</p>
+<p class="whatinc">
+検索語 の表 :, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="xl">検索語</th></tr></thead>
+<tbody><tr><td class="R">2</td><td class="xl">九州大学</td></tr>
+<tr><td class="R">1</td><td class="xl">芸工</td></tr>
+<tr><td class="R">1</td><td class="xl">大橋キャンパス</td></tr>
+<tr><td class="R">1</td><td class="xl">噴水</td></tr>
+<tr><td class="R">1</td><td class="xl">芸工祭</td></tr>
+<tr><td class="R">1</td><td class="xl">九州大学大橋キャンパス</td></tr>
+</tbody></table>
+</div><div class="browrep"><h2><a name="browrep" id="browrep">ブラウザレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | ブラウザレポート | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ユーザのブラウザーの統計を表します。</p>
+<p class="whatinc">
+ブラウザ の表 : 最小は 1 ページリクエスト件数, ソート順は ページリクエスト件数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="P">ページ数</th><th class="xl">ブラウザ</th></tr></thead>
+<tbody><tr><td class="R">17</td><td class="P">17</td><td class="xl">Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)</td></tr>
+<tr><td class="R">52</td><td class="P">12</td><td class="xl">Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)</td></tr>
+<tr><td class="R">34</td><td class="P">8</td><td class="xl">Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ja-jp) AppleWebKit/418.9.1 (KHTML, like Gecko) Safari/419.3</td></tr>
+<tr><td class="R">8</td><td class="P">8</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)</td></tr>
+<tr><td class="R">26</td><td class="P">6</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727)</td></tr>
+<tr><td class="R">8</td><td class="P">5</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)</td></tr>
+<tr><td class="R">13</td><td class="P">4</td><td class="xl">Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; ja-jp) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.1 Safari/525.18</td></tr>
+<tr><td class="R">13</td><td class="P">4</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)</td></tr>
+<tr><td class="R">4</td><td class="P">4</td><td class="xl">msnbot/1.1 (+http://search.msn.com/msnbot.htm)</td></tr>
+<tr><td class="R">13</td><td class="P">4</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)</td></tr>
+<tr><td class="R">11</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)</td></tr>
+<tr><td class="R">11</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)</td></tr>
+<tr><td class="R">3</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322)</td></tr>
+<tr><td class="R">3</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Google Wireless Transcoder;)</td></tr>
+<tr><td class="R">11</td><td class="P">3</td><td class="xl">Mozilla/5.0 (Macintosh; U; Intel Mac OS X; ja-JP-mac; rv:1.8.1.14) Gecko/20080404 Firefox/2.0.0.14</td></tr>
+<tr><td class="R">11</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)</td></tr>
+<tr><td class="R">3</td><td class="P">3</td><td class="xl">Mozilla/4.0 (compatible; NaverBot/1.0; http://help.naver.com/delete_main.asp)</td></tr>
+<tr><td class="R">3</td><td class="P">2</td><td class="xl">Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)</td></tr>
+<tr><td class="R">2</td><td class="P">2</td><td class="xl">Mozilla/4.0 (compatible ; MSIE 6.0; Windows NT 5.1)</td></tr>
+<tr><td class="R">1</td><td class="P">1</td><td class="xl">${USR_AGENT}</td></tr>
+<tr><td class="R">9</td><td class="P">0</td><td class="xl">[その他: 2 ブラウザ]</td></tr>
+</tbody></table>
+</div><div class="browsum"><h2><a name="browsum" id="browsum">ブラウザ集計</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | ブラウザ集計 | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ユーザの使用したブラウザーのベンダーの統計を表します。</p>
+<p class="whatinc">
+ブラウザ の表 : 最小は 1 ページリクエスト件数, ソート順は ページリクエスト件数.</p>
+<table>
+<thead><tr><th class="N">番号</th><th class="R">リクエスト件数</th><th class="P">ページ数</th><th class="xl">ブラウザ</th></tr></thead>
+<tbody><tr><td class="N">1</td><td class="R">170</td><td class="P">56</td><td class="xl">MSIE</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">103</td><td class="P">38</td><td class="xl">&nbsp;&nbsp;MSIE/6</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">66</td><td class="P">18</td><td class="xl">&nbsp;&nbsp;MSIE/7</td></tr>
+<tr><td class="N">2</td><td class="R">23</td><td class="P">22</td><td class="xl">Netscape (compatible)</td></tr>
+<tr><td class="N">3</td><td class="R">47</td><td class="P">12</td><td class="xl">Safari</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">34</td><td class="P">8</td><td class="xl">&nbsp;&nbsp;Safari/419</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">13</td><td class="P">4</td><td class="xl">&nbsp;&nbsp;Safari/525</td></tr>
+<tr><td class="N">4</td><td class="R">4</td><td class="P">4</td><td class="xl">msnbot</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">4</td><td class="P">4</td><td class="xl">&nbsp;&nbsp;msnbot/1</td></tr>
+<tr><td class="N">5</td><td class="R">11</td><td class="P">3</td><td class="xl">Firefox</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">11</td><td class="P">3</td><td class="xl">&nbsp;&nbsp;Firefox/2</td></tr>
+<tr><td class="N">6</td><td class="R">1</td><td class="P">1</td><td class="xl">${USR_AGENT}</td></tr>
+</tbody></table>
+</div><div class="os"><h2><a name="os" id="os">OSレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | OSレポート | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ユーザの使用した OS の統計を表します。</p>
+<p class="whatinc">
+OS の表 :, ソート順は ページリクエスト件数.</p>
+<table>
+<thead><tr><th class="N">番号</th><th class="R">リクエスト件数</th><th class="P">ページ数</th><th class="xl">OS</th></tr></thead>
+<tbody><tr><td class="N">1</td><td class="R">170</td><td class="P">56</td><td class="xl">Windows</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">77</td><td class="P">32</td><td class="xl">&nbsp;&nbsp;Windows XP</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">52</td><td class="P">12</td><td class="xl">&nbsp;&nbsp;その他のWindows</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">37</td><td class="P">9</td><td class="xl">&nbsp;&nbsp;Windows 2000</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">3</td><td class="P">3</td><td class="xl">&nbsp;&nbsp;Windows Server 2003</td></tr>
+<tr class="sub level2"><td class="N">&nbsp;</td><td class="R">1</td><td class="P">0</td><td class="xl">&nbsp;&nbsp;Windows ME</td></tr>
+<tr><td class="N">2</td><td class="R">28</td><td class="P">27</td><td class="xl">未知OS</td></tr>
+<tr><td class="N">3</td><td class="R">58</td><td class="P">15</td><td class="xl">Macintosh</td></tr>
+</tbody></table>
+</div><div class="size"><h2><a name="size" id="size">ファイルサイズレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | ファイルサイズレポート | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルの大きさの統計を表します。</p>
+<table>
+<thead><tr><th class="x">サイズ</th><th class="R">リクエスト件数</th><th class="b">バイト (%)</th></tr></thead>
+<tbody><tr><td class="x">          0</td><td class="R">21</td><td class="b">&nbsp;</td></tr>
+<tr><td class="x">   1B-  10B</td><td class="R">0</td><td class="b">&nbsp;</td></tr>
+<tr><td class="x">  11B- 100B</td><td class="R">0</td><td class="b">&nbsp;</td></tr>
+<tr><td class="x"> 101B-  1kB</td><td class="R">72</td><td class="b"> 0.54%</td></tr>
+<tr><td class="x">  1kB- 10kB</td><td class="R">115</td><td class="b"> 3.03%</td></tr>
+<tr><td class="x"> 10kB-100kB</td><td class="R">23</td><td class="b"> 7.24%</td></tr>
+<tr><td class="x">100kB-  1MB</td><td class="R">24</td><td class="b">72.74%</td></tr>
+<tr><td class="x">  1MB- 10MB</td><td class="R">1</td><td class="b">16.45%</td></tr>
+</tbody></table>
+</div><div class="type"><h2><a name="type" id="type">ファイル種類別レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | ファイル種類別レポート | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルの拡張子の統計を表します。</p>
+<p class="whatinc">
+拡張子 の表 : 最小は 0.1% の通信量, ソート順は 通信量.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="xl">拡張子</th></tr></thead>
+<tbody><tr><td class="R">13</td><td class="b">52.05%</td><td class="xl">.jpg [JPEG graphics]</td></tr>
+<tr><td class="R">6</td><td class="b">20.00%</td><td class="xl">.swf</td></tr>
+<tr><td class="R">13</td><td class="b">19.09%</td><td class="xl">.JPG</td></tr>
+<tr><td class="R">125</td><td class="b"> 7.45%</td><td class="xl">.gif [GIF graphics]</td></tr>
+<tr><td class="R">68</td><td class="b"> 1.04%</td><td class="xl">.html [Hypertext Markup Language]</td></tr>
+<tr><td class="R">30</td><td class="b"> 0.28%</td><td class="xl">[ディレクトリ]</td></tr>
+<tr><td class="R">1</td><td class="b"> 0.09%</td><td class="xl">[その他: 1 拡張子]</td></tr>
+</tbody></table>
+</div><div class="dir"><h2><a name="dir" id="dir">ディレクトリレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | ディレクトリレポート | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、ファイルがリクエストされたディレクトリの統計を表します。(各ディレクトリの数値は全てのサブディレクトリも含みます。)</p>
+<p class="whatinc">
+ディレクトリ の表 : 最小は 0.01% の通信量, ソート順は 通信量.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="xl">ディレクトリ</th></tr></thead>
+<tbody><tr><td class="R">216</td><td class="b">78.82%</td><td class="xl">[ルートディレクトリ]</td></tr>
+<tr><td class="R">4</td><td class="b">16.70%</td><td class="xl">/2ken/</td></tr>
+<tr><td class="R">12</td><td class="b"> 3.75%</td><td class="xl">/cba/</td></tr>
+<tr><td class="R">16</td><td class="b"> 0.64%</td><td class="xl">/3ken/</td></tr>
+<tr><td class="R">7</td><td class="b"> 0.09%</td><td class="xl">/4ken/</td></tr>
+<tr><td class="R">1</td><td class="b">&nbsp;</td><td class="xl">[その他: 1 ディレクトリ]</td></tr>
+</tbody></table>
+</div><div class="fail"><h2><a name="fail" id="fail">リクエスト不成功レポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | リクエスト不成功レポート | <a href="#req">リクエストレポート</a>)</p>
+<p class="repdesc">このレポートは、「ファイルが見つからない」等のエラーを生じさせるファイルの統計を表します。</p>
+<p class="whatinc">
+ファイル の表 :, ソート順は 不成功リクエスト件数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="xl">ファイル</th></tr></thead>
+<tbody><tr><td class="R">11</td><td class="xl">/robots.txt</td></tr>
+<tr><td class="R">10</td><td class="xl">/favicon.ico</td></tr>
+<tr><td class="R">3</td><td class="xl">/2ken/test/chateau_web.html</td></tr>
+</tbody></table>
+</div><div class="req"><h2><a name="req" id="req">リクエストレポート</a></h2>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | リクエストレポート)</p>
+<p class="repdesc">このレポートは、サイトのファイルの統計を表します。</p>
+<p class="whatinc">
+ファイル の表 : 最小は 10 リクエスト, ソート順は リクエスト数.</p>
+<table>
+<thead><tr><th class="R">リクエスト件数</th><th class="b">バイト (%)</th><th class="D">最終アクセス時刻</th><th class="xl">ファイル</th></tr></thead>
+<tbody><tr><td class="R">19</td><td class="b"> 0.08%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl"><a href="/">/</a></td></tr>
+<tr><td class="R">16</td><td class="b"> 0.16%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl"><a href="/info.html">/info.html</a></td></tr>
+<tr><td class="R">15</td><td class="b"> 0.23%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl"><a href="/index4.html">/index4.html</a></td></tr>
+<tr><td class="R">13</td><td class="b">19.09%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/himatsuri04.JPG</td></tr>
+<tr><td class="R">12</td><td class="b"> 0.24%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/access.gif</td></tr>
+<tr><td class="R">12</td><td class="b"> 0.26%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/EVENT.gif</td></tr>
+<tr><td class="R">12</td><td class="b"> 0.15%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/LINK.gif</td></tr>
+<tr><td class="R">12</td><td class="b">51.83%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/top8.jpg</td></tr>
+<tr><td class="R">12</td><td class="b"> 0.17%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/BBS.gif</td></tr>
+<tr><td class="R">12</td><td class="b"> 0.32%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/ABOUT.gif</td></tr>
+<tr><td class="R">12</td><td class="b"> 3.70%</td><td class="D">2008年 6月11日 23時10分</td><td class="xl">/top9.gif</td></tr>
+<tr><td class="R">109</td><td class="b">23.79%</td><td class="D">2008年 6月11日 22時12分</td><td class="xl">[その他: 45 ファイル]</td></tr>
+</tbody></table>
+</div><div class="footer"><p class="credit">レポート出力ソフト : <a href="http://www.analog.cx/">analog 6.0</a>.
+<br /><span class="runtimetitle">処理時間:</span> <1 秒.
+</p>
+<p class="goto">(<span class="gototitle">Go To</span>: <a href="#Top">先頭</a> | <a href="#gensum">全体の概要</a> | <a href="#hoursum">時間別集計</a> | <a href="#dom">ドメインレポート</a> | <a href="#org">組織別レポート</a> | <a href="#host">ホストレポート</a> | <a href="#ref">参照元レポート</a> | <a href="#refsite">参照元サイトレポート</a> | <a href="#searchq">検索語句レポート</a> | <a href="#searchw">検索語レポート</a> | <a href="#browrep">ブラウザレポート</a> | <a href="#browsum">ブラウザ集計</a> | <a href="#os">OSレポート</a> | <a href="#size">ファイルサイズレポート</a> | <a href="#type">ファイル種類別レポート</a> | <a href="#dir">ディレクトリレポート</a> | <a href="#fail">リクエスト不成功レポート</a> | <a href="#req">リクエストレポート</a>)</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body { background-image:url(../img/menu/header3.jpg);
+	background-repeat:repeat-x; 
+	scroll:no;}
+.top { position:absolute;
+	top:78px;
+	left:124px;}
+.about { position:absolute;
+	top:81px;
+	left:212px;}
+.event { position:absolute;
+	top:96px;
+	left:298px;}
+.blog { position:absolute;
+	top:92px;
+	left:382px;}
+.bbs { position:absolute;
+	top:103px;
+	left:450px;}
+.access { position:absolute;
+	top:97px;
+	left:538px;}
+.link { position:absolute;
+	top:102px;
+	left:623px;}

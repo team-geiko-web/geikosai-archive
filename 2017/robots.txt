@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: http://www.design.kyushu-u.ac.jp/~festival/2017/sitemap1.xml
+
+Sitemap: http://www.design.kyushu-u.ac.jp/~festival/2017/sitemap2.xml

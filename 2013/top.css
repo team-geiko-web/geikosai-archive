@@ -1,0 +1,130 @@
+body{
+background-color: #008080;
+}
+
+#header{
+width: 950px;
+height:116px;
+background-image: url(img/5kenhedder02.png);
+opacity: 0.85;
+}
+
+#header h1{
+margin: 0;
+}
+
+#contents{
+background-image: url(img/back01.gif);
+background-repeat: repeat;
+background-attachment:fixed;
+padding:20px; /*内側の余白を20pxに*/
+width: 950px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.menu{
+background-color: rgba(0, 0, 0, 0.75);/*メニューの背景色*/
+width: 100%;
+height: 50px;
+}
+.menu ul{
+margin: 0;
+padding: 0;
+}
+.menu li{
+list-style-type: none;
+float: left}
+.menu li a{
+font-size: 25px;
+color: #ffffff;/*メニューの文字色*/
+display: block;
+width: 125px;
+line-height: 50px;
+border-right: solid 1px #ffffff;/*割線の色*/
+text-align: center;
+text-decoration: none;
+}
+
+.main{
+width: 600px;
+float: left;
+padding:20px;
+background-color: rgba(255, 255, 255, 0.4);
+margin-bottom: 20px;
+}
+
+.main a{
+text-decoration: none;
+}
+
+.update{
+width: 250px;
+margin-left: 30px;
+float: left;
+padding:10px;
+background-color: rgba(255, 255, 255, 0.4);
+margin-bottom: 20px;
+}
+
+.img{
+display: block
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+border: solid 1px #000000;
+}
+
+.interview{
+width: 580px;
+margin-bottom: 20px;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+}
+.interviewname{
+width: 580px;
+padding: 10px;
+background-color: #f5f5f5;
+}
+
+#bar{
+margin: auto;
+padding: 1px;
+background: #ffffff;
+width:100%;
+}
+
+#bar2{
+margin: auto;
+padding: 2px;
+background: #008080;
+width:100%;
+}
+
+#bar3{
+margin: auto;
+padding: 2px;
+background: #008080;
+width:100%;
+}
+
+.footer{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.75);
+clear: left;
+}
+
+#footer_inner{
+padding: 10px 10px;
+}
+
+h1, h2, h3{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+span.n1{
+font-size: 24px;
+color: red;
+}

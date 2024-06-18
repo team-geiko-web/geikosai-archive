@@ -1,0 +1,817 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    font-size:1.5rem;
+}
+
+header{
+    z-index:100;
+    background-color: rgba(255,255,255,0.8);
+    width:100vw;
+    position:fixed;
+    top:　0;
+}
+.red{
+  color:red;
+}
+
+/*header .logo{
+    padding: auto 25px;
+    width: 35%;
+    float:left;
+}
+header .logo img{
+    max-width: 200px;   
+    height: auto;
+}
+
+header .pc_navi{
+    width: 65%;
+    float:left;
+    margin: 15px 0 10px 0px;
+}
+header .pc_navi_li{
+    padding: auto 0;
+}*/
+
+.btn{
+    max-width: 750px;
+    height: auto;
+    width: 100%;
+}
+
+.border_bottom{
+    width: 700px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 5px auto;
+
+}
+h1{
+    font-weight:bold;
+}
+h2{
+    font-weight:bold;
+}
+/* -----------------------------------*/
+/*#visual{*/
+/*    background-image: url("./img/main_visual.jpg");*/
+/*    background-position: 0px center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    overflow:hidden;*/
+/*    width: 100%;*/
+/*    height:130rem;*/
+
+    /*z-index: 1;*/ 
+    
+/*}*/
+#visual .center{
+    width: 100%;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    margin: 40rem auto;
+}
+.center img,.center h1{
+    max-width: 100%;
+    height: auto;
+    /*font-family: "Sawarabi Mincho";*/
+    color:rgb(50,50,50);
+    font-weight: bolder;
+}
+/*更新情報(logクラス)-------------------- */
+#log{
+    padding-top:100px;
+    margin:-70px 150px 50px 150px;
+}
+#log h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align:left;
+}
+.log_in{
+    border: solid;
+    border-radius: 20px;
+    border-color:red;
+    margin:0 20px 35px 20;
+    padding:50px;
+}
+.log_in p{
+    padding-top:15px;
+    font-size:2.0rem;
+}
+
+/*芸工祭とは(themaクラス)-------------------- */
+#thema{
+    background-image: url("./img/main_back.jpg");
+    text-align: center;
+    padding: 120px 30px 60px 30px;
+    
+}
+#thema h1{
+    font-size:4.0rem;
+    padding-bottom:20px;
+    font-family: "Sawarabi Mincho",serif;
+    /*text-shadow: 1px 2px 3px #808080; */
+}
+#thema h2{
+    font-size:2.5rem;
+    font-family: "Sawarabi Mincho",serif;
+}
+#thema h2 span{
+    color: red;
+    font-size:4.0rem;
+    /*text-shadow: 1px 2px 3px #808080; */
+}
+
+/*企画(soudansitsuクラ���)-------------------- */
+#soudansitsu{
+    padding-top:100px;
+    margin:-60px 150px 50px 150px;
+    text-align: center;
+}
+#soudansitsu h1{
+    font-size:3.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align: left;
+}
+#soudansitsu p{
+    font-size:2.5rem;
+    
+}
+
+
+/*企画(kikakuクラス)-------------------- */
+
+#kikaku{
+    width:100%;
+    color:black;
+    background-image: url("./img/main_back.jpg");
+    background-color:rgb(240,240,240);
+    text-align: center;
+    padding:100px 0 50px 0px;
+}
+.kikaku_in{
+    margin:0 150px;
+}
+.kikaku_top{
+    width: 100%;
+    margin: 0 auto;
+    height: 360px
+}
+.kikaku_bottom{
+    width: 75%;
+    margin: 0 auto;
+    height: 360px
+}
+.kikaku_box{
+    height: 360px;
+    float: left;
+    opacity: 1.0;
+    text-align: center;
+}
+.kikaku_top .kikaku_box{
+    margin-top:30px;
+    width: 25%;
+}
+.kikaku_bottom .kikaku_box{
+    margin-bottom:30px;
+    width: 33.3%;
+}
+.kikaku_box img{
+    width:15rem;
+    height:15rem;
+    border-radius: 50%;
+}
+#kikaku h1{
+    font-size:3.5rem;
+    text-shadow: 2px 2px 7px #000; 
+    color:white;
+    margin-top:15px;
+}
+#kikaku h4{
+    padding-bottom:2px;
+    margin-top:15px;
+}
+#kikaku .bd{
+    border-bottom:2px solid red;
+    text-align: left;
+    color:rgb(130,0,20);
+    text-shadow: 0px 0px 0px #000;
+}
+
+#kikaku h2{
+    font-size:2.0rem;
+    margin:10px 0;
+}
+
+#kikaku h4{
+    text-shadow: 2px 2px 4px #000;
+    color:white;
+}
+#kikaku .kikaku_photo{
+    max-width: 750px;
+    height: auto;
+    margin-top:20px;
+    width: 100%;
+}
+
+.hovicon {
+  display: inline-block;
+  font-size: 45px;
+  line-height: 90px;
+  cursor: pointer;
+  margin: 20px 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.hovicon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.hovicon:before {
+  speak: none;
+  font-size: 60px;
+  line-height: 90px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hovicon.effect-9 {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hovicon.effect-9:after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 3px #000;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Effect 9a */
+.hovicon.effect-9.sub-a:hover:after {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+  
+}
+
+.hovicon.effect-9.sub-a:hover {
+  box-shadow: 0 0 0 20px white;
+  color: white;
+  transform: scale(0.9) rotate(11deg);
+}
+
+.hovicon.effect-9.sub-a:hover i {
+  color: white;
+}
+#kikaku img{
+    cursor: pointer;
+}
+.block{
+    overflow: hidden;
+}
+
+
+.timetable{
+    margin-top:100px;
+}
+.timetable p{
+    font-size:2rem;
+}
+.ippankikaku p{
+    font-size:2rem;
+}
+.frypan p{
+    font-size:2rem;
+}
+.btn_top{
+    margin-top:-60px;
+}
+.kyositsu{
+    max-width: 750px;
+    height: auto;
+    width: 100%;
+}
+.tent{
+    max-width: 750px;
+    height: auto;
+    width: 100%;
+}
+/*ご来場の方へ(goraijou)-------------------- */
+#goraijou{
+    text-align: center;
+    margin:-50px 150px 50px 150px;
+    padding-top: 150px;
+}
+#goraijou h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align:left;
+}
+#goraijou h2{
+    font-size:3.0rem;
+    margin:10px 0;
+}
+.map{
+    max-width: 800px;
+    height: auto;
+    margin-top:20px;
+    width: 100%;
+}
+.no_saketabako{
+    max-width: 800px;
+    height: auto;
+    margin-top:-15px;
+    width: 100%;
+}
+#goraijou ul{
+    margin-bottom: 50px;
+    
+}
+
+/*お問い合わせ(otoiawaseクラス)-------------------- */
+#otoiawase{
+    margin:50px 150px;
+    text-align: center;
+}
+#otoiawase h1{
+    font-size:3.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align:left;
+}
+#otoiawase h2{
+    font-size:3.0rem;
+    margin:10px;
+}
+#otoiawase p{
+    font-size:2.0rem;
+    margin:0px;
+}
+/*九州大学(qdai)-------------------- */
+.qdai{
+    text-align: center;
+    margin:50px 150px;
+}
+.qdai h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align:left;
+}
+.qdai h2{
+    font-size:3.0rem;
+    margin:10px 0;
+}
+.otoiawase p{
+    font-size:2.0rem;
+    margin:0px;
+}
+
+/*フッター*/
+footer{
+    background-color: #930020;
+    width:100%;
+    padding: 20px;
+}
+footer p{
+    color:white;
+    text-align: center;
+    margin: auto auto;
+}
+.modal .center{
+    margin: auto 0;
+}
+
+
+
+@media screen and (min-width:550px) { 
+  header .logo{
+      padding: auto 25px;
+      width: 35%;
+      float:left;
+  }
+  header .logo img{
+      max-width: 200px;   
+      height: auto;
+  }
+
+  header .pc_navi{
+      width: 65%;
+      float:left;
+      margin: 15px 0 10px 0px;
+  }
+  header .pc_navi_li{
+      padding: auto 0;
+  }
+  header .sp_navi{
+    visibility: hidden;
+  }
+  #visual{
+        background-image: url("./img/main_visual.jpg");
+        background-position: 0px center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow:hidden;
+        width: 100%;
+        height:130rem;
+    
+        /*z-index: 1;*/ 
+   }
+   .kikaku_sp{
+        display:none;
+   }
+}
+@media screen and (max-width:550px) {
+    body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    font-size:2px;
+}
+  header .logo{
+     padding: auto 25px;
+     width: 80%;
+     float:left;
+  }
+  header .logo img{
+      max-width: 120px;   
+      height: auto;
+  }
+
+  header .pc_navi{
+      visibility:hidden;
+  }
+  header .sp_navi{
+      float:left;
+      width: 20%;
+  }
+
+
+/*-------------------------------*/
+    body {
+      font-size: 14px;
+      font-family: "Roboto", serif;
+      background: #eee;
+    }
+    
+    h1 {
+      text-align: center;
+      padding-top: 60px;
+    }
+    
+    #nav-toggle {
+      position: fixed;
+      top: 10px;
+      right: 25px;
+      height: 32px;
+      cursor: pointer;
+    }
+    #nav-toggle > div {
+      position: relative;
+      width: 36px;
+    }
+    #nav-toggle span {
+      width: 100%;
+      height: 1px;
+      left: 0;
+      display: block;
+      background: #333;
+      position: absolute;
+      transition: transform 0.6s ease-in-out, top 0.5s ease;
+    }
+    #nav-toggle span:nth-child(1) {
+      top: 0;
+    }
+    #nav-toggle span:nth-child(2) {
+      top: 14px;
+    }
+    #nav-toggle span:nth-child(3) {
+      top: 28px;
+    }
+    #nav-toggle:hover span:nth-child(1) {
+      top: 4px;
+    }
+    #nav-toggle:hover span:nth-child(3) {
+      top: 23px;
+    }
+    
+    .open #nav-toggle span {
+      background: #fff;
+    }
+    .open #nav-toggle span:nth-child(1) {
+      top: 15px;
+      transform: rotate(45deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+      top: 15px;
+      width: 0;
+      left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+      top: 15px;
+      transform: rotate(-45deg);
+    }
+    
+    /* z-index */
+    #nav-toggle {
+      z-index: 1000;
+    }
+    
+    #container {
+      z-index: 900;
+    }
+    
+    #gloval-nav {
+      background: #000;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 990;
+      text-align: center;
+      display: flex;
+      visibility: hidden;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 29px;
+      opacity: 0;
+      transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+    
+    #gloval-nav a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 0;
+      transition: color 0.6s ease;
+    }
+    #gloval-nav a:hover {
+      color: #666;
+    }
+    #gloval-nav ul {
+      list-style: none;
+    }
+    #gloval-nav ul li {
+      opacity: 0;
+      transform: translateX(200px);
+      transition: transform 0.6s ease, opacity 0.2s ease;
+    }
+    #gloval-nav ul li:nth-child(2) {
+      transition-delay: 0.05s;
+    }
+    #gloval-nav ul li:nth-child(3) {
+      transition-delay: 0.1s;
+    }
+    #gloval-nav ul li:nth-child(4) {
+      transition-delay: 0.15s;
+    }
+    #gloval-nav ul li:nth-child(5) {
+      transition-delay: 0.2s;
+    }
+    #gloval-nav ul li:nth-child(6) {
+      transition-delay: 0.25s;
+    }
+    #gloval-nav ul li:nth-child(7) {
+      transition-delay: 0.3s;
+    }
+    
+    /* open */
+    .open {
+      overflow: hidden;
+    }
+    .open #gloval-nav {
+      visibility: visible;
+      opacity: 1;
+    }
+    .open #gloval-nav li {
+      opacity: 1;
+      transform: translateX(0);
+      transition: transform 1s ease, opacity 0.9s ease;
+    }
+/*--------------------*/
+    #visual{
+        background-image: url("./img/main_visual.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow:hidden;
+        width: 100vw;
+        height: 100vh;
+    }
+    #visual .center{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        margin: 30vh auto;
+    }
+        .center img,.center h1{
+        max-width: 100%;
+        height: auto;
+        /*font-family: "Sawarabi Mincho";*/
+        color:rgb(50,50,50);
+        font-weight: bolder;
+        margin:5px;
+    }
+    /*更新情報(logクラス)-------------------- */
+    #log{
+        padding-top:20px;
+        margin:-40px 10px 50px 10px;
+    }
+    /*芸工祭とは(themaクラス)-------------------- */
+    #thema{
+        background-image: url("./img/main_back.jpg");
+        text-align: center;
+        padding: 15px 5px 60px 5px;
+    }
+    #thema h1{
+    font-size:3.5rem;
+    padding-bottom:20px;
+    font-family: "Sawarabi Mincho",serif;
+    /*text-shadow: 1px 2px 3px #808080; */
+    }
+    #thema h2{
+        font-size:1.7rem;
+        font-family: "Sawarabi Mincho",serif;
+    }
+    #thema h2 span{
+        color: red;
+        font-size:3.5rem;
+        /*text-shadow: 1px 2px 3px #808080; */
+    }
+    /*企画(soudansitsuクラ���)-------------------- */
+    #soudansitsu{
+        padding-top:100px;
+        margin:-150px 10px 50px 10px;
+        text-align: center;
+    }
+    #soudansitsu h1{
+    font-size:2.5rem;
+    margin: 10px 0 35px 0;
+    color:rgb(130,0,20);
+    border-bottom:2px solid red;
+    text-align: left;
+    }
+    #soudansitsu p{
+        font-size:1.5rem;
+        
+    }
+    /*企画(kikakuクラス)-------------------- */
+    .kikaku_pc{
+        display:none;
+    }
+    #kikaku{
+        width:100%;
+        color:black;
+        background-image: url("./img/main_back.jpg");
+        background-color:rgb(240,240,240);
+        text-align: center;
+        padding:10px 0 50px 0px;
+    }
+    .kikaku_in{
+        margin:0 3px;
+    }
+    .kikaku_one{
+        width: 100%;
+        margin: 0 auto;
+        height: 270px
+    }
+    .kikaku_two{
+        width: 100%;
+        margin: 0 auto;
+        height: 270px
+    }
+    .kikaku_three{
+        width: 100%;
+        margin: 0 auto;
+        height: 270px
+    }
+    .kikaku_four{
+        width: 50%;
+        margin: 0 auto;
+        height: 270px
+    }
+    .kikaku_box{
+        height: 270px;
+        float: left;
+        opacity: 1.0;
+        text-align: center;
+    }
+    .kikaku_one .kikaku_box,.kikaku_two .kikaku_box,.kikaku_three .kikaku_box{
+    width: 50%;
+    }
+    .kikaku_four .kikaku_box{
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    #kikaku h1{
+        font-size:3.0rem;
+        text-shadow: 2px 2px 7px #000; 
+        color:white;
+        margin-top:0px;
+        margin-bottom: 30px;
+        padding-top:5px;
+    }
+    #kikaku h2{
+        font-size:1.5rem;
+        margin:3px 0;
+    }
+    #kikaku h4{
+        margin-top:-15px;
+    }
+    #kikaku p{
+        margin-top:-20px;
+    }
+
+    .timetable{
+        margin-top:10px;
+    }
+    .timetable p{
+        font-size:1.5rem;
+    }
+    .ippankikaku p{
+        font-size:1.5rem;
+    }
+    .frypan p{
+        font-size:1.5rem;
+    }
+    .timetable_fry{
+      margin-top: 20px;
+    }
+    /*ご来場の方へ(goraijou)-------------------- */
+    #goraijou{
+        text-align: center;
+        margin:-150px 10px 50px 10px;
+        padding-top: 150px;
+    }
+    /*お問い合わせ(otoiawaseクラス)-------------------- */
+    #otoiawase{
+        margin:10px 10px;
+    }
+    #otoiawase h1{
+        margin: 10px 0 15px 0;
+    }
+    /*九州大学(qdai)-------------------- */
+    .qdai{
+        margin:50px 10px;
+    }
+    .qdai h1 {
+        margin: 10px 0 35px 0;
+    }
+    .qdai h2{
+        font-size:3.0rem;
+        margin:10px 0;
+    }
+}
+
+

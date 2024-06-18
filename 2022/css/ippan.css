@@ -1,0 +1,74 @@
+.commingsoon{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+/* main */
+.main{
+    margin-top: 5%;
+}
+.info{
+    text-align: left;
+    margin-left: 22vw;
+    font-size: 20px;
+    text-shadow:1.5px 1.5px 0 #FFF, -1.5px -1.5px 0 #FFF,
+    -1.5px 1.5px 0 #FFF, 1.5px -1.5px 0 #FFF,
+    0px 1.5px 0 #FFF,  0 -1.5px 0 #FFF,
+    -1.5px 0 0 #FFF, 1.5px 0 0 #FFF;
+}
+
+.tent-kikaku{
+    margin-top: 25px;
+    width: 100%;
+}
+.kikaku-midashi{
+    margin: 150px auto 50px auto ;
+    width: 250px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #4DC9CB;
+    color: #FFF;
+    font-weight: bolder;
+}
+.ippan-kikaku-wrapper{
+    font-size: 0px;
+    text-align: center;
+    margin: 0vh 10vw;
+}
+.ippan-kikaku-box{
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    margin: 30px;
+    width: 15vw;
+    min-width: 150px;
+}
+.ippan-kikaku-box img{
+    width: 100%;
+}
+.ippan-kikaku-box p{
+    margin: 5px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+@media screen and (max-width: 860px) {
+    .kikaku-midashi{
+        font-size: 20px;
+        width: 150px;
+    }
+    .info{
+        margin: 0vh 10vw;
+        font-size: 16px;
+    }
+    .ippan-kikaku-wrapper{
+        margin: 0vh 0vw;
+    }
+    .ippan-kikaku-box{
+        margin: 10px;
+    }
+    .ippan-kikaku-box p{
+        font-size: 15px;
+    }
+}

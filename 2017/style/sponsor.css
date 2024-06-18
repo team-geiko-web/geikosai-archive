@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{
+	line-height: 150%;
+}
+
+.sponsor{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display:flex;
+}
+.sponsorBig{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display:flex;
+}
+
+.shop{
+	width:180px;
+	margin-left:5px;
+	margin-bottom: 15px;
+	}
+.shop img{
+	margin: 0;
+	}
+.shop p{
+	margin: 0;
+	}
+@media screen and (max-width : 1128px ){
+	.shop{
+		width:20%
+	}
+}
+@media screen and (max-width : 600px ){
+	.shop{
+		width:40%
+	}
+}
+
+
+.shopBig{
+	width:375px;
+	margin-left:5px;
+	margin-bottom: 15px;
+	}
+.shopBig img{
+	margin: 0;
+	}
+.shopBig p{
+	margin: 0;
+	}
+@media screen and (max-width : 1128px ){
+	.shopBig{
+		width:45%
+	}
+}
+@media screen and (max-width : 600px ){
+	.shopBig{
+		width:90%
+	}
+}
+
+
+#map-canvas {
+		width: 100%;
+		height: 600px;
+		background: rgba(241,59,62,1.00);
+	}

@@ -1,0 +1,20 @@
+body {
+scrollbar-face-color:"black";
+scrollbar-arrow-color:"white";
+scrollbar-track-color:"black";
+scrollbar-highlight-color:"white";
+scrollbar-shadow-color:"white";
+scrollbar-3dlight-color:"black";
+scrollbar-darkshadow-color:"black";}
+body,td {
+font-size:9pt;
+color:black;
+font-family:'MS UI Gothic';
+line-height : 18px;}
+BR{letter-spacing:normal;}
+a{ text-decoration:none; }
+a:link{color:gold}
+a:visited{color:darkred;text-decoration:underline;}
+a:active{color:darkred}
+a:hover{color:orangered;}
+BODY{background-color :white;}

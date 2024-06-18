@@ -1,0 +1,198 @@
+body             {font-family: 'メイリオ',
+                  'Hiragino Kaku Gothic Pro',
+                  sans-serif;
+                  background-color: #ffdab9;
+                  margin: 0;
+                  background-image: url(backa.png);}
+
+h1               {font-size: 35px;
+                  }
+
+h2               {font-size: 40px;
+                  padding-bottom: 0}
+
+h4               {font-size: 60px}
+
+p                {line-height: 1.5}
+
+/* ヘッダー */
+header           {background-color: #ff7f50;}
+
+header h1        {font-size: 50px;
+                  width: 900px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;}
+
+
+/*　トップのリンク　*/
+
+
+#container      {width: 900px;
+                 margin: auto;
+                 background-image: url(back.png);}
+
+#Information     {font-size: 30px;
+	             background-color: #9370db;
+                 width: 240px;
+                 padding:30px;
+                 margin-left: auto;
+                 margin-right: auto;
+                 box-shadow: 20px 20px 10px rgb(211,150,160);
+                 border-radius: 100px;
+                 float: left;
+                 text-align: center;}
+
+
+
+
+/*　ロゴ　*/
+figure.logo-center       {margin-top: 60px;
+	                      padding-left: 61px;
+                          float: left;
+                          margin-left: auto;
+                          margin-right: auto}
+
+
+#TimeTable      {background-color: #9acd32;
+                 width: 240px;
+                 padding: 30px;
+                 padding-left: 30px;
+                 margin-left: 640px;
+                 margin-right: auto;
+                 margin-bottom: 130px;
+                 box-shadow: 20px 20px 10px rgb(211,150,160);
+                 border-radius: 100px;
+                 text-align: center;}
+
+
+#Cast           {background-color: #008080;
+                 width: 240px;
+                 padding: 30px;
+                 padding-left: 30px;
+                 margin-left: auto;
+                 margin-right: auto;
+                 box-shadow: 20px 20px 10px rgb(211,150,160);
+                 border-radius: 100px;
+                 float: left;
+                 text-align: center;}
+
+
+#Event          {background-color: #ffa07a;
+                 width: 240px;
+                 padding: 30px;
+                 padding-left: 30px;
+                 margin-left: 20px;
+                 margin-right: auto;
+                 box-shadow: 20px 20px 10px rgb(211,150,160);
+                 border-radius: 100px;
+                 float: left;
+                 text-align: center;}
+
+
+#Link           {background-color: #f5deb3;
+                 width: 240px;
+                 padding: 30px;
+                 padding-left: 30px;
+                 margin-left: 640px;
+                 margin-right: auto;
+                 box-shadow: 20px 20px 10px rgb(211,150,160);
+                 border-radius: 100px;
+                 text-align: center;}
+
+
+/* 共通 */
+
+#common article         {background-color: #ffffff;
+	                     width: 900px;
+	                     margin-left: auto;
+	                     margin-right: auto;
+	                     border: solid 5px #ffdead;
+	                     padding: 30px;
+	                     -webkit-box-shadow: 10px 10px 5px rgb(211,150,160);
+	                     box-shadow: 10px 10px 5px rgb(211,150,160);
+	                     border-radius: 20px}
+
+#common article h1         {margin-top: 0}
+
+#common article h2          {margin-bottom: 0}
+
+#common h5               {font-size: 17px;
+                         margin-top: 0}
+
+#medama p                {margin-top: 70px;
+                          margin-bottom: 0}  
+
+#keihin h4       {color: #ff4500;
+                  margin-top: 0}
+
+#link   h5                {font-size: 30px}
+
+#link   a                 {text-decoration: none;
+                           color: #000000}
+
+#link   a:hover          {color: #ffd700}
+
+#casts                   {border: solid 3px #ffdead;
+                          border-radius: 10px;
+                          padding-left: 30px;
+                          background-color: #ffefd5;
+                          margin: 20px}
+
+#casts   p               {padding-left: 10px;
+                          padding-top: 0}
+
+#casts   h2              {padding-top: 0}
+
+#card    p               {border: solid 3px #ffa500;
+                          border-radius: 10px;
+                          background-color: #ffdead;
+                          padding: 10px 10px 10px 25px;
+                          font-size: 16px}
+
+/* タイムテーブル */
+
+table, th, td           {border: solid 3px #d2691e;
+                         width: 600px;
+                         text-align: center;
+                         margin-left: auto;
+                         margin-right: auto;
+                         margin-top: 20px;
+                         margin-bottom: 20px}
+
+table                   {border-collapse: collapse;
+                         margin-top: 40px;
+                         margin-bottom: 40px;}
+
+th,td                   {padding: 10px 20px 10px 20px}
+
+th                      {width: 260px;
+                         background-color: #f4a460}
+
+td                      {background-color: #ffedce}
+
+/* トップにもどる */
+
+#return a       {color: #8b4513;
+                 text-align: right;
+                 padding: 0;}
+
+#return a:hover    {color: #808000}
+
+/* フッター */
+footer          {width: 900px;
+                 text-align: right;
+                 margin-left: auto;
+                 margin-right: auto;
+                 margin-top: 60px;}
+
+/* カーソル */
+#top article a    {color: #000000;
+                   text-decoration: none;
+                   display: block;
+                   overflow: hidden;
+                   padding: 20px}
+
+#top article a:hover    {color: #ffe792}
+
+#top article      {padding: 0;}
